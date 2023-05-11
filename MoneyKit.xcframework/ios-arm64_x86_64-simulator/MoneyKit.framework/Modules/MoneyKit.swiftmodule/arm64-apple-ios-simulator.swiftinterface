@@ -1,0 +1,557 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoneyKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AuthenticationServices
+import CommonCrypto
+import CoreData
+import CoreTelephony
+import CryptoKit
+import Dispatch
+import Foundation
+import GameplayKit
+@_exported import MoneyKit
+import SafariServices
+import Security
+import SpriteKit
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public struct MKLinkEvent {
+  public let name: Swift.String
+  public let sessionId: Swift.String
+  public let properties: [Swift.String : Any]
+}
+public enum MKLinkSuccessType {
+  case linked(MoneyKit.MKLinkedInstitution)
+  case relinked(MoneyKit.MKRelinkedInstitution)
+}
+public struct MKExchangeableToken : Swift.Codable {
+  public let value: Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UIKit.UIColor {
+  convenience public init(lightColor: UIKit.UIColor, darkColor: UIKit.UIColor)
+}
+public struct MKColors {
+  public var tint: UIKit.UIColor
+  public var primaryBackground: UIKit.UIColor
+  public var secondaryBackground: UIKit.UIColor
+  public var primaryContent: UIKit.UIColor
+  public var secondaryContent: UIKit.UIColor
+  public var primaryForeground: UIKit.UIColor
+  public var secondaryForeground: UIKit.UIColor
+  public var tertiaryForeground: UIKit.UIColor
+  public var primaryFill: UIKit.UIColor
+  public var secondaryFill: UIKit.UIColor
+  public var tertiaryFill: UIKit.UIColor
+  public var success: UIKit.UIColor
+  public var warning: UIKit.UIColor
+  public var error: UIKit.UIColor
+  public var separator: UIKit.UIColor
+  public var selection: UIKit.UIColor
+  public init()
+  public init(tint: UIKit.UIColor, primaryBackground: UIKit.UIColor, secondaryBackground: UIKit.UIColor, primaryContent: UIKit.UIColor, secondaryContent: UIKit.UIColor, primaryForeground: UIKit.UIColor, secondaryForeground: UIKit.UIColor, tertiaryForeground: UIKit.UIColor, primaryFill: UIKit.UIColor, secondaryFill: UIKit.UIColor, tertiaryFill: UIKit.UIColor, success: UIKit.UIColor, warning: UIKit.UIColor, error: UIKit.UIColor, separator: UIKit.UIColor, selection: UIKit.UIColor)
+}
+extension MoneyKit.MKColors {
+  public func primaryBackground(with userInterfaceLevel: MoneyKit.MKUserInterfaceLevel = .unspecified) -> UIKit.UIColor
+  public func secondaryBackground(with userInterfaceLevel: MoneyKit.MKUserInterfaceLevel = .unspecified) -> UIKit.UIColor
+  public func primaryContent(with userInterfaceLevel: MoneyKit.MKUserInterfaceLevel = .unspecified) -> UIKit.UIColor
+  public func secondaryContent(with userInterfaceLevel: MoneyKit.MKUserInterfaceLevel = .unspecified) -> UIKit.UIColor
+}
+public struct MKImages {
+  public var back: UIKit.UIImage
+  public var close: UIKit.UIImage
+  public var closeSheet: UIKit.UIImage
+  public var lock: UIKit.UIImage
+  public var lockSmall: UIKit.UIImage
+  public var clock: UIKit.UIImage
+  public var helpTextField: UIKit.UIImage
+  public var errorSmall: UIKit.UIImage
+  public var checkbox: UIKit.UIImage
+  public var checkboxSelected: UIKit.UIImage
+  public var disclosure: UIKit.UIImage
+  public var radio: UIKit.UIImage
+  public var radioSelected: UIKit.UIImage
+  public var externalArrow: UIKit.UIImage
+  public var mfaSMS: UIKit.UIImage
+  public var mfaEmail: UIKit.UIImage
+  public var mfaPhone: UIKit.UIImage
+  public var permissionAccountNumbers: UIKit.UIImage
+  public var permissionBalances: UIKit.UIImage
+  public var permissionTransactions: UIKit.UIImage
+  public var permissionIdentity: UIKit.UIImage
+  public var search: UIKit.UIImage
+  public var clear: UIKit.UIImage
+  public var spinner: UIKit.UIImage
+  public var verified: UIKit.UIImage
+  public var info: UIKit.UIImage
+  public init()
+  public init(back: UIKit.UIImage, close: UIKit.UIImage, closeSheet: UIKit.UIImage, lock: UIKit.UIImage, lockSmall: UIKit.UIImage, clock: UIKit.UIImage, helpTextField: UIKit.UIImage, errorSmall: UIKit.UIImage, checkbox: UIKit.UIImage, checkboxSelected: UIKit.UIImage, disclosure: UIKit.UIImage, radio: UIKit.UIImage, radioSelected: UIKit.UIImage, externalArrow: UIKit.UIImage, mfaSMS: UIKit.UIImage, mfaEmail: UIKit.UIImage, mfaPhone: UIKit.UIImage, permissionAccountNumbers: UIKit.UIImage, permissionBalances: UIKit.UIImage, permissionTransactions: UIKit.UIImage, permissionIdentity: UIKit.UIImage, search: UIKit.UIImage, clear: UIKit.UIImage, spinner: UIKit.UIImage, verified: UIKit.UIImage, info: UIKit.UIImage)
+}
+public struct MKPageSheetStyle {
+  public var primaryViewCornerRadius: CoreFoundation.CGFloat
+  public var primaryViewTopInset: CoreFoundation.CGFloat
+  public var secondaryViewCornerRadius: CoreFoundation.CGFloat
+  public var secondaryViewTopInset: CoreFoundation.CGFloat
+  public var secondaryViewZPosition: CoreFoundation.CGFloat
+  public var tertiaryViewCornerRadius: CoreFoundation.CGFloat
+  public var tertiaryViewZPosition: CoreFoundation.CGFloat
+  public var innerViewCornerRadius: CoreFoundation.CGFloat
+  public init()
+  public init(primaryViewCornerRadius: CoreFoundation.CGFloat, primaryViewTopInset: CoreFoundation.CGFloat, secondaryViewCornerRadius: CoreFoundation.CGFloat, secondaryViewTopInset: CoreFoundation.CGFloat, secondaryViewZPosition: CoreFoundation.CGFloat, tertiaryViewCornerRadius: CoreFoundation.CGFloat, tertiaryViewZPosition: CoreFoundation.CGFloat, innerViewCornerRadius: CoreFoundation.CGFloat? = nil)
+}
+extension MoneyKit.MKPageSheetStyle {
+  public static let ios: MoneyKit.MKPageSheetStyle
+}
+public struct MKConfiguration {
+  public typealias SuccessHandler = ((MoneyKit.MKLinkSuccessType) -> Swift.Void)?
+  public typealias ExitHandler = (() -> Swift.Void)?
+  public typealias ErrorHandler = ((MoneyKit.MKLinkError) -> Swift.Void)?
+  public typealias EventHandler = ((MoneyKit.MKLinkEvent) -> Swift.Void)?
+  public enum ConfigurationError : Swift.Error, Foundation.LocalizedError {
+    case invalidSessionToken(Swift.String)
+    public var localizedDescription: Swift.String {
+      get
+    }
+  }
+  public let sessionToken: Swift.String
+  public let settings: MoneyKit.MKSettings
+  public let version: Swift.String
+  public init(sessionToken: Swift.String, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, onError: MoneyKit.MKConfiguration.ErrorHandler = nil, settings: MoneyKit.MKSettings = MKSettings()) throws
+}
+public struct MKModalTransition {
+  public var style: MoneyKit.MKPresentationStyle
+  public var overlayColor: UIKit.UIColor
+  public var scaledOverlayColor: UIKit.UIColor
+  public var presentingAnimationDuration: CoreFoundation.CGFloat
+  public var presentingAnimationDamping: CoreFoundation.CGFloat
+  public var dismissingAnimationDuration: CoreFoundation.CGFloat
+  public var dismissingAnimationDamping: CoreFoundation.CGFloat
+  public init()
+  public init(style: MoneyKit.MKPresentationStyle, overlayColor: UIKit.UIColor, scaledOverlayColor: UIKit.UIColor, presentingAnimationDuration: CoreFoundation.CGFloat, presentingAnimationDamping: CoreFoundation.CGFloat, dismissingAnimationDuration: CoreFoundation.CGFloat, dismissingAnimationDamping: CoreFoundation.CGFloat)
+}
+public enum MKPresentationMethod {
+  public typealias PresentationHandler = (UIKit.UIViewController) -> Swift.Void
+  public typealias DismissalHandler = (UIKit.UIViewController) -> Swift.Void
+  case modal(presentingViewController: UIKit.UIViewController)
+  case custom(presentationHandler: MoneyKit.MKPresentationMethod.PresentationHandler, dismissalHandler: MoneyKit.MKPresentationMethod.DismissalHandler)
+}
+public struct MKInstitutionSelectScreen {
+  public var title: Swift.String
+  public var subtitle: Swift.String?
+  public var searchPlaceholder: Swift.String
+  public var navigationBarHidden: Swift.Bool
+  public var swipeToDismiss: Swift.Bool
+  public var backgroundColorStyle: MoneyKit.MKTheme.BackgroundColorStyle
+  public var institutionCellShadowStyle: MoneyKit.MKTheme.ShadowStyle
+  public var institutionCellCornerStyle: MoneyKit.MKTheme.CornerStyle
+  public var institutionCellBorderStyle: MoneyKit.MKTheme.BorderStyle
+  public var institutionCellSpacing: CoreFoundation.CGFloat
+  public var institutionCellBackgroundColor: UIKit.UIColor
+  public var searchInstitutionCellSeparatorStyle: MoneyKit.MKTheme.SeparatorStyle
+  public var searchInstitutionCellAvatarDiameter: CoreFoundation.CGFloat
+  public var searchInstitutionCellContentEdgeInsets: UIKit.UIEdgeInsets
+  public init()
+  public init(title: Swift.String, subtitle: Swift.String?, searchPlaceholder: Swift.String, navigationBarHidden: Swift.Bool, swipeToDismiss: Swift.Bool, backgroundColorStyle: MoneyKit.MKTheme.BackgroundColorStyle, institutionCellShadowStyle: MoneyKit.MKTheme.ShadowStyle, institutionCellCornerStyle: MoneyKit.MKTheme.CornerStyle, institutionCellBorderStyle: MoneyKit.MKTheme.BorderStyle, institutionCellSpacing: CoreFoundation.CGFloat, institutionCellBackgroundColor: UIKit.UIColor, searchInstitutionCellSeparatorStyle: MoneyKit.MKTheme.SeparatorStyle, searchInstitutionCellAvatarDiameter: CoreFoundation.CGFloat, searchInstitutionCellContentEdgeInsets: UIKit.UIEdgeInsets)
+}
+public struct MKTrackedScreen : Swift.Codable {
+  public let name: Swift.String
+  public let duration: Foundation.TimeInterval
+  public let requestTime: Foundation.TimeInterval?
+  public let gameTime: Foundation.TimeInterval?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct MKControls {
+  public struct NavigationBar {
+    public var height: CoreFoundation.CGFloat
+    public var closeButtonTintColor: UIKit.UIColor?
+    public var separatorHeight: CoreFoundation.CGFloat
+    public var separatorHorizontalInset: CoreFoundation.CGFloat
+    public init()
+    public init(height: CoreFoundation.CGFloat, closeButtonTintColor: UIKit.UIColor?, separatorHeight: CoreFoundation.CGFloat, separatorHorizontalInset: CoreFoundation.CGFloat)
+  }
+  public struct Button {
+    public var height: CoreFoundation.CGFloat
+    public var cornerStyle: MoneyKit.MKTheme.CornerStyle
+    public var borderStyle: MoneyKit.MKTheme.BorderStyle
+    public var interactionStyle: MoneyKit.MKTheme.InteractionStyle?
+    public var disabledBackgroundColor: UIKit.UIColor?
+    public var disabledTitleTextColor: UIKit.UIColor?
+    public var disabledTitleAlpha: CoreFoundation.CGFloat?
+    public init()
+    public init(height: CoreFoundation.CGFloat, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, interactionStyle: MoneyKit.MKTheme.InteractionStyle?, disabledBackgroundColor: UIKit.UIColor?, disabledTitleTextColor: UIKit.UIColor?, disabledTitleAlpha: CoreFoundation.CGFloat?)
+  }
+  public struct SearchBar {
+    public enum CancelButtonType {
+      case icon
+      case text
+      public static func == (a: MoneyKit.MKControls.SearchBar.CancelButtonType, b: MoneyKit.MKControls.SearchBar.CancelButtonType) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    public var height: CoreFoundation.CGFloat
+    public var cornerStyle: MoneyKit.MKTheme.CornerStyle
+    public var borderStyle: MoneyKit.MKTheme.BorderStyle
+    public var interactionStyle: MoneyKit.MKTheme.InteractionStyle?
+    public var alignment: MoneyKit.MKTheme.ContentAlignment
+    public var cancelButtonType: MoneyKit.MKControls.SearchBar.CancelButtonType
+    public var backgroundColor: UIKit.UIColor
+    public init()
+    public init(height: CoreFoundation.CGFloat, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, interactionStyle: MoneyKit.MKTheme.InteractionStyle?, alignment: MoneyKit.MKTheme.ContentAlignment, cancelButtonType: MoneyKit.MKControls.SearchBar.CancelButtonType, backgroundColor: UIKit.UIColor)
+  }
+  public struct TextField {
+    public enum HelpButtonStyle {
+      case text(_: Swift.String, tintColor: UIKit.UIColor? = nil)
+      case icon(_: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
+      case custom(text: Swift.String, icon: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
+    }
+    public var height: CoreFoundation.CGFloat
+    public var helpButtonStyle: MoneyKit.MKControls.TextField.HelpButtonStyle
+    public var contentInset: UIKit.UIEdgeInsets?
+    public var backgroundColor: UIKit.UIColor?
+    public var highlightedBackgroundColor: UIKit.UIColor?
+    public var selectedBackgroundColor: UIKit.UIColor?
+    public var cornerStyle: MoneyKit.MKTheme.CornerStyle
+    public var borderStyle: MoneyKit.MKTheme.BorderStyle
+    public var highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle
+    public var selectedBorderStyle: MoneyKit.MKTheme.BorderStyle
+    public var shadowStyle: MoneyKit.MKTheme.ShadowStyle
+    public var highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle
+    public var selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle
+    public init()
+    public init(height: CoreFoundation.CGFloat, helpButtonStyle: MoneyKit.MKControls.TextField.HelpButtonStyle, contentInset: UIKit.UIEdgeInsets?, backgroundColor: UIKit.UIColor?, highlightedBackgroundColor: UIKit.UIColor?, selectedBackgroundColor: UIKit.UIColor?, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle)
+  }
+  public struct Spinner {
+    public var lineCap: QuartzCore.CAShapeLayerLineCap
+    public var duration: CoreFoundation.CGFloat
+    public init()
+    public init(lineCap: QuartzCore.CAShapeLayerLineCap, duration: CoreFoundation.CGFloat)
+  }
+  public struct ProgressSpinner {
+    public var strokeWidth: CoreFoundation.CGFloat
+    public var diameter: CoreFoundation.CGFloat
+    public var lineCap: QuartzCore.CAShapeLayerLineCap
+    public init()
+    public init(strokeWidth: CoreFoundation.CGFloat, diameter: CoreFoundation.CGFloat, lineCap: QuartzCore.CAShapeLayerLineCap)
+  }
+  public struct ListItemView {
+    public var separatorStyle: MoneyKit.MKTheme.SeparatorStyle
+    public init()
+    public init(separatorStyle: MoneyKit.MKTheme.SeparatorStyle)
+  }
+  public struct ActionSheet {
+    public var cornerStyle: MoneyKit.MKTheme.CornerStyle
+    public init()
+    public init(cornerStyle: MoneyKit.MKTheme.CornerStyle)
+  }
+  public struct ContentView {
+    public var layoutStyle: MoneyKit.MKTheme.LayoutStyle
+    public var cornerStyle: MoneyKit.MKTheme.CornerStyle
+    public var borderStyle: MoneyKit.MKTheme.BorderStyle
+    public var shadowStyle: MoneyKit.MKTheme.ShadowStyle
+    public var separatorStyle: MoneyKit.MKTheme.SeparatorStyle
+    public init()
+    public init(layoutStyle: MoneyKit.MKTheme.LayoutStyle, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, separatorStyle: MoneyKit.MKTheme.SeparatorStyle)
+  }
+  public var navigationBar: MoneyKit.MKControls.NavigationBar
+  public var contentView: MoneyKit.MKControls.ContentView
+  public var button: MoneyKit.MKControls.Button
+  public var searchBar: MoneyKit.MKControls.SearchBar
+  public var textField: MoneyKit.MKControls.TextField
+  public var spinner: MoneyKit.MKControls.Spinner
+  public var progressSpinner: MoneyKit.MKControls.ProgressSpinner
+  public var listItemView: MoneyKit.MKControls.ListItemView
+  public var actionSheet: MoneyKit.MKControls.ActionSheet
+  public init()
+  public init(navigationBar: MoneyKit.MKControls.NavigationBar, contentView: MoneyKit.MKControls.ContentView, button: MoneyKit.MKControls.Button, searchBar: MoneyKit.MKControls.SearchBar, textField: MoneyKit.MKControls.TextField, spinner: MoneyKit.MKControls.Spinner, progressSpinner: MoneyKit.MKControls.ProgressSpinner, listItemView: MoneyKit.MKControls.ListItemView, actionSheet: MoneyKit.MKControls.ActionSheet)
+}
+@objc final public class MKLinkHandler : ObjectiveC.NSObject {
+  public init(configuration: MoneyKit.MKConfiguration)
+  final public func presentLinkFlow(using presentationMethod: MoneyKit.MKPresentationMethod)
+  final public func presentRelinkFlow(on presentingViewController: UIKit.UIViewController)
+  final public func continueFlow(from redirectUri: Foundation.URL)
+  @objc deinit
+}
+public enum MKPresentationStyle {
+  case pageSheet(style: MoneyKit.MKPageSheetStyle = MKPageSheetStyle())
+  case fullScreen(style: MoneyKit.MKFullScreenStyle = MKFullScreenStyle())
+}
+public struct MKTypography {
+  public var regularFont: UIKit.UIFont
+  public var mediumFont: UIKit.UIFont
+  public var boldFont: UIKit.UIFont
+  public var heavyFont: UIKit.UIFont
+  public var largeTitle: MoneyKit.MKTypographyStyle
+  public var title1: MoneyKit.MKTypographyStyle
+  public var title2: MoneyKit.MKTypographyStyle
+  public var title3: MoneyKit.MKTypographyStyle
+  public var body: MoneyKit.MKTypographyStyle
+  public var smallBody: MoneyKit.MKTypographyStyle
+  public var button: MoneyKit.MKTypographyStyle
+  public var input: MoneyKit.MKTypographyStyle
+  public init()
+  public init(regularFont: UIKit.UIFont, mediumFont: UIKit.UIFont?, boldFont: UIKit.UIFont, heavyFont: UIKit.UIFont?, largeTitle: MoneyKit.MKTypographyStyle, title1: MoneyKit.MKTypographyStyle, title2: MoneyKit.MKTypographyStyle, title3: MoneyKit.MKTypographyStyle, body: MoneyKit.MKTypographyStyle, smallBody: MoneyKit.MKTypographyStyle, button: MoneyKit.MKTypographyStyle, input: MoneyKit.MKTypographyStyle)
+}
+public struct MKTheme {
+  public var colors: MoneyKit.MKColors
+  public var typography: MoneyKit.MKTypography
+  public var spacing: MoneyKit.MKSpacing
+  public var images: MoneyKit.MKImages
+  public var transitions: MoneyKit.MKTransitions
+  public var controls: MoneyKit.MKControls
+  public var screens: MoneyKit.MKScreens
+  public init()
+  public init(colors: MoneyKit.MKColors, typography: MoneyKit.MKTypography, images: MoneyKit.MKImages, spacing: MoneyKit.MKSpacing, controls: MoneyKit.MKControls, screens: MoneyKit.MKScreens, transitions: MoneyKit.MKTransitions)
+}
+extension MoneyKit.MKTheme {
+  public enum ContentAlignment {
+    case left
+    case center
+    public static func == (a: MoneyKit.MKTheme.ContentAlignment, b: MoneyKit.MKTheme.ContentAlignment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum LayoutStyle {
+    case plain(textFieldSpacing: CoreFoundation.CGFloat = 0)
+    case grouped
+  }
+  public enum BorderStyle {
+    case custom(width: CoreFoundation.CGFloat, color: UIKit.UIColor)
+    case none
+  }
+  public enum SeparatorStyle {
+    case allExceptLast
+    case all
+    case none
+    public static func == (a: MoneyKit.MKTheme.SeparatorStyle, b: MoneyKit.MKTheme.SeparatorStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum BackgroundColorStyle {
+    case primary
+    case secondary
+    public static func == (a: MoneyKit.MKTheme.BackgroundColorStyle, b: MoneyKit.MKTheme.BackgroundColorStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum CornerStyle {
+    case custom(CoreFoundation.CGFloat)
+    case capsule
+    case none
+  }
+  public enum ShadowStyle {
+    case custom(_: MoneyKit.MKTheme.Shadow)
+    case none
+  }
+  public struct Shadow {
+    public var offsetX: CoreFoundation.CGFloat
+    public var offsetY: CoreFoundation.CGFloat
+    public var blur: CoreFoundation.CGFloat
+    public var color: UIKit.UIColor
+    public var opacity: CoreFoundation.CGFloat
+    public init(offsetX: CoreFoundation.CGFloat = 0, offsetY: CoreFoundation.CGFloat = 0, blur: CoreFoundation.CGFloat = 0, color: UIKit.UIColor = .black, opacity: CoreFoundation.CGFloat = 1.0)
+  }
+  public struct InteractionStyle {
+    public var haptic: Swift.Bool
+    public var highlightColor: UIKit.UIColor?
+    public var scale: CoreFoundation.CGFloat
+    public var duration: CoreFoundation.CGFloat
+    public var damping: CoreFoundation.CGFloat
+    public var velocity: CoreFoundation.CGFloat
+    public var options: UIKit.UIView.AnimationOptions
+    public init(haptic: Swift.Bool, highlightColor: UIKit.UIColor?, scale: CoreFoundation.CGFloat, duration: CoreFoundation.CGFloat, damping: CoreFoundation.CGFloat, velocity: CoreFoundation.CGFloat, options: UIKit.UIView.AnimationOptions)
+  }
+}
+public enum MKUserInterfaceLevel : Swift.Int {
+  case unspecified
+  case base
+  case elevated
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct MKInteractiveLoadingScreen {
+  public enum Content {
+    case advertisement(MoneyKit.MKAdvertisementContent)
+    case game(MoneyKit.MKGameContent)
+  }
+  public enum LoadingAlignment {
+    case topLeft
+    case center
+    public static func == (a: MoneyKit.MKInteractiveLoadingScreen.LoadingAlignment, b: MoneyKit.MKInteractiveLoadingScreen.LoadingAlignment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var loadingAlignment: MoneyKit.MKInteractiveLoadingScreen.LoadingAlignment
+  public var content: MoneyKit.MKInteractiveLoadingScreen.Content?
+  public init()
+  public init(loadingAlignment: MoneyKit.MKInteractiveLoadingScreen.LoadingAlignment, content: MoneyKit.MKInteractiveLoadingScreen.Content?)
+}
+public struct MKSettings {
+  public var theme: MoneyKit.MKTheme
+  public var developerMode: Swift.Bool
+  public init(theme: MoneyKit.MKTheme = MKTheme(), developerMode: Swift.Bool = false)
+}
+public struct MKGameContent {
+  public var game: MoneyKit.MKGame
+  public var contentStyle: MoneyKit.MKContentStyle
+  public init()
+  public init(game: MoneyKit.MKGame, contentStyle: MoneyKit.MKContentStyle)
+}
+public struct MKAccount {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let type: Swift.String
+  public let mask: Swift.String?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct MKContentStyle {
+  public var cornerStyle: MoneyKit.MKTheme.CornerStyle
+  public var borderStyle: MoneyKit.MKTheme.BorderStyle
+  public init(cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle)
+}
+public struct MKAdvertisementContent {
+  public var image: UIKit.UIImage
+  public var title: Swift.String
+  public var subtitle: Swift.String
+  public var contentStyle: MoneyKit.MKContentStyle
+  public init(image: UIKit.UIImage, title: Swift.String, subtitle: Swift.String, contentStyle: MoneyKit.MKContentStyle)
+}
+public struct MKScreens {
+  public var institutionSelect: MoneyKit.MKInstitutionSelectScreen
+  public var interactiveLoading: MoneyKit.MKInteractiveLoadingScreen
+  public init()
+  public init(institutionSelect: MoneyKit.MKInstitutionSelectScreen, interactiveLoading: MoneyKit.MKInteractiveLoadingScreen)
+}
+public enum MKGame {
+  case snake
+  public static func == (a: MoneyKit.MKGame, b: MoneyKit.MKGame) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol MKPushTransition {
+  var transitionDuration: Foundation.TimeInterval { get }
+  func transition(container: UIKit.UIView, fromViewController: UIKit.UIViewController, toViewController: UIKit.UIViewController, isDismissing: Swift.Bool, completion: @escaping () -> Swift.Void)
+}
+public struct MKLinkedInstitution {
+  public let institution: MoneyKit.MKInstitution
+  public let accounts: [MoneyKit.MKAccount]
+  public let token: MoneyKit.MKExchangeableToken
+  public let trackedScreens: [MoneyKit.MKTrackedScreen]
+}
+extension MoneyKit.MKLinkedInstitution {
+  public var totalTimeToLink: Swift.Double {
+    get
+  }
+}
+public struct MKRelinkedInstitution {
+  public let institution: MoneyKit.MKInstitution
+  public let accounts: [MoneyKit.MKAccount]
+  public let trackedScreens: [MoneyKit.MKTrackedScreen]
+}
+extension MoneyKit.MKRelinkedInstitution {
+  public var totalTimeToLink: Swift.Double {
+    get
+  }
+}
+public struct MKSpacing {
+  public var contentHorizontalInset: CoreFoundation.CGFloat
+  public var buttonHorizontalInset: CoreFoundation.CGFloat
+  public init()
+  public init(contentHorizontalInset: CoreFoundation.CGFloat, buttonHorizontalInset: CoreFoundation.CGFloat)
+}
+public struct MKLinkError {
+  public let name: Swift.String
+  public let displayedMessage: Swift.String
+  public let requestId: Swift.String?
+  public let event: MoneyKit.MKLinkEvent
+}
+public struct MKFullScreenStyle {
+  public var primaryViewCornerRadius: CoreFoundation.CGFloat
+  public var innerViewCornerRadius: CoreFoundation.CGFloat
+  public init()
+  public init(primaryViewCornerRadius: CoreFoundation.CGFloat, innerViewCornerRadius: CoreFoundation.CGFloat? = nil)
+}
+extension MoneyKit.MKFullScreenStyle {
+  public static let ios: MoneyKit.MKFullScreenStyle
+}
+public struct MKInstitution {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let country: Swift.String
+  public let domain: Swift.String?
+  public let color: Swift.String
+  public let colorDark: Swift.String?
+  public let avatar: Swift.String
+  public let avatarDark: Swift.String?
+  public let logo: Swift.String?
+  public let logoDark: Swift.String?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct MKTransitions {
+  public var pushTransition: MoneyKit.MKPushTransition
+  public var modalTransition: MoneyKit.MKModalTransition
+  public init()
+  public init(pushTransition: MoneyKit.MKPushTransition, modalTransition: MoneyKit.MKModalTransition)
+}
+public struct MKTypographyStyle {
+  public enum Weight {
+    case regular
+    case medium
+    case bold
+    case heavy
+    public static func == (a: MoneyKit.MKTypographyStyle.Weight, b: MoneyKit.MKTypographyStyle.Weight) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var size: CoreFoundation.CGFloat
+  public var lineHeight: CoreFoundation.CGFloat
+  public var letterSpacing: CoreFoundation.CGFloat
+  public var weight: MoneyKit.MKTypographyStyle.Weight
+  public init(size: CoreFoundation.CGFloat, lineHeight: CoreFoundation.CGFloat, letterSpacing: CoreFoundation.CGFloat, weight: MoneyKit.MKTypographyStyle.Weight)
+}
+extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Equatable {}
+extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Hashable {}
+extension MoneyKit.MKTheme.ContentAlignment : Swift.Equatable {}
+extension MoneyKit.MKTheme.ContentAlignment : Swift.Hashable {}
+extension MoneyKit.MKTheme.SeparatorStyle : Swift.Equatable {}
+extension MoneyKit.MKTheme.SeparatorStyle : Swift.Hashable {}
+extension MoneyKit.MKTheme.BackgroundColorStyle : Swift.Equatable {}
+extension MoneyKit.MKTheme.BackgroundColorStyle : Swift.Hashable {}
+extension MoneyKit.MKUserInterfaceLevel : Swift.Equatable {}
+extension MoneyKit.MKUserInterfaceLevel : Swift.Hashable {}
+extension MoneyKit.MKUserInterfaceLevel : Swift.RawRepresentable {}
+extension MoneyKit.MKInteractiveLoadingScreen.LoadingAlignment : Swift.Equatable {}
+extension MoneyKit.MKInteractiveLoadingScreen.LoadingAlignment : Swift.Hashable {}
+extension MoneyKit.MKAccount : Swift.Encodable {}
+extension MoneyKit.MKAccount : Swift.Decodable {}
+extension MoneyKit.MKGame : Swift.Equatable {}
+extension MoneyKit.MKGame : Swift.Hashable {}
+extension MoneyKit.MKInstitution : Swift.Encodable {}
+extension MoneyKit.MKInstitution : Swift.Decodable {}
+extension MoneyKit.MKTypographyStyle.Weight : Swift.Equatable {}
+extension MoneyKit.MKTypographyStyle.Weight : Swift.Hashable {}

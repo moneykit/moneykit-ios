@@ -1,0 +1,11 @@
+framework module MoneyKit {
+  umbrella header "MoneyKit.h"
+
+  export *
+  module * { export * }
+}
+
+module MoneyKit.Swift {
+  header "MoneyKit-Swift.h"
+  requires objc
+}
