@@ -11,10 +11,10 @@ MoneyKit for iOS is an embeddable framework that is bundled and distributed with
 #### Swift Package Manager
 
 1. To integrate MoneyKit using Swift Package Manager, Swift version >= 5.5 is required.
-2. In your Xcode project from the Project Navigator select your project, activate the Package Dependencies tab and click on the plus symbol to open the Add Package popup window:
+2. In your Xcode project, from the Project Navigator, select your project, activate the Package Dependencies tab, and click on the plus symbol to open the Add Package popup window:
 3. Enter the MoneyKit package URL https://github.com/moneykit/moneykit-ios into the search bar in the top right corner of the Add Package popup window.
 4. Select the moneykit-ios package.
-5. Choose your Dependency Rule (we recommend Up to Next Major Version).
+5. Choose your dependency rule (we recommend Up to Next Major Version).
 6. Select the project to which you would like to add MoneyKit, then click Add Package.
 7. Select the MoneyKit package and click Add Package.
 8. Verify that the MoneyKit package was properly added as a dependency to your project.
@@ -22,14 +22,14 @@ MoneyKit for iOS is an embeddable framework that is bundled and distributed with
 
 #### Manual Install
 
-Get the latest version of the MoneyKit.xcframework and embed it into your application, for example by dragging and dropping the XCFramework bundle onto the Embed Frameworks build phase of your application target in Xcode.
+Get the latest version of the MoneyKit.xcframework and embed it into your application, for example, by dragging and dropping the XCFramework bundle onto the Embed Frameworks build phase of your application target in Xcode.
 
 ## Upgrading
 
-New versions of MoneyKit.xcframework are released frequently, at least once every few months. We recommend you keep up to date to provide the best experience in your application.
+New versions of MoneyKit.xcframework are released frequently, at least once every few months. We recommend you keep up-to-date to provide the best experience in your application.
 
 ## Example Application
 
-Before building and running the example application replace any placeholder strings in the code with the appropriate value so that MoneyKit is configured properly. For convenience the Xcode placeholder strings are also marked as compile-time warnings.
+Before building and running the example application, replace any placeholder strings in the code with the appropriate value so that MoneyKit is configured properly. For convenience, the Xcode placeholder strings are also marked as compile-time warnings.
 
-Full detailed instructions on how to integrate with MoneyKit for iOS can be found in our main documentation at https://docs.moneykit.com/.
+Full, detailed instructions on how to integrate with MoneyKit for iOS can be found in our main documentation at https://docs.moneykit.com/.
