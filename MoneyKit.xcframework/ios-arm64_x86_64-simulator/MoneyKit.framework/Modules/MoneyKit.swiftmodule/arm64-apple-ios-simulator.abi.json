@@ -647,13 +647,6 @@
       },
       {
         "kind": "Import",
-        "name": "AuthenticationServices",
-        "printedName": "AuthenticationServices",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -712,13 +705,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "MoneyKit"
       },
@@ -24878,13 +24864,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -26658,13 +26637,6 @@
       },
       {
         "kind": "Import",
-        "name": "Dispatch",
-        "printedName": "Dispatch",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -27232,13 +27204,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "MoneyKit"
       },
@@ -28495,14 +28460,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIColor+Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 5419,
+      "offset": 5418,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIColor+Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 5545,
+      "offset": 5544,
       "length": 3,
       "value": "0.1"
     },
@@ -28747,63 +28712,63 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "Array",
-      "offset": 1140,
+      "offset": 1110,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "Array",
-      "offset": 1916,
+      "offset": 1886,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4488,
+      "offset": 4458,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4878,
+      "offset": 4848,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 42574,
+      "offset": 42482,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKExternalIssueEmailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1735,
+      "offset": 1719,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKExternalIssueEmailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1787,
+      "offset": 1771,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKExternalIssueEmailViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12871,
+      "offset": 12855,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKExternalIssueEmailViewController.swift",
       "kind": "StringLiteral",
-      "offset": 74,
+      "offset": 58,
       "length": 34,
       "value": "\"MoneyKit.MKExternalIssueEmailViewController\""
     },
@@ -31008,49 +30973,49 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKIssueReportingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1424,
+      "offset": 1408,
       "length": 7,
       "value": "\"iOWes\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKIssueReportingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1417,
       "length": 8,
       "value": "\"Design\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKIssueReportingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1443,
+      "offset": 1427,
       "length": 9,
       "value": "\"Backend\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKIssueReportingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1573,
+      "offset": 1557,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKIssueReportingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1625,
+      "offset": 1609,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKIssueReportingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1665,
+      "offset": 1649,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKIssueReportingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 74,
+      "offset": 58,
       "length": 30,
       "value": "\"MoneyKit.MKIssueReportingViewController\""
     },
@@ -31463,28 +31428,28 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKExternalIssueNoteViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1714,
+      "offset": 1698,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKExternalIssueNoteViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1766,
+      "offset": 1750,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKExternalIssueNoteViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12951,
+      "offset": 12935,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKExternalIssueNoteViewController.swift",
       "kind": "StringLiteral",
-      "offset": 74,
+      "offset": 58,
       "length": 33,
       "value": "\"MoneyKit.MKExternalIssueNoteViewController\""
     },
