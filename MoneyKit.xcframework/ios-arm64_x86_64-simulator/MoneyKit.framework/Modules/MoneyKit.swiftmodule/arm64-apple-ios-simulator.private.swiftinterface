@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoneyKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
@@ -28,8 +28,8 @@ public enum MKLinkSuccessType {
 }
 public struct MKExchangeableToken : Swift.Codable {
   public let value: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension UIKit.UIColor {
   convenience public init(lightColor: UIKit.UIColor, darkColor: UIKit.UIColor)
@@ -161,8 +161,8 @@ public struct MKTrackedScreen : Swift.Codable {
   public let duration: Foundation.TimeInterval
   public let requestTime: Foundation.TimeInterval?
   public let gameTime: Foundation.TimeInterval?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct MKControls {
   public struct NavigationBar {
@@ -418,8 +418,8 @@ public struct MKAccount {
   public let name: Swift.String
   public let type: Swift.String
   public let mask: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct MKContentStyle {
   public var cornerStyle: MoneyKit.MKTheme.CornerStyle
@@ -504,14 +504,14 @@ public struct MKInstitution {
   public let avatarDark: Swift.String?
   public let logo: Swift.String?
   public let logoDark: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct MKTransitions {
-  public var pushTransition: MoneyKit.MKPushTransition
+  public var pushTransition: any MoneyKit.MKPushTransition
   public var modalTransition: MoneyKit.MKModalTransition
   public init()
-  public init(pushTransition: MoneyKit.MKPushTransition, modalTransition: MoneyKit.MKModalTransition)
+  public init(pushTransition: any MoneyKit.MKPushTransition, modalTransition: MoneyKit.MKModalTransition)
 }
 public struct MKTypographyStyle {
   public enum Weight {
