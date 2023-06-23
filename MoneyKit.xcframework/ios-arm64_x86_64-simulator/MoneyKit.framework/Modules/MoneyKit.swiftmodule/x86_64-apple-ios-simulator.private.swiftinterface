@@ -14,7 +14,6 @@ import SpriteKit
 import Swift
 import SystemConfiguration
 import UIKit
-import WebKit
 import _Concurrency
 import _StringProcessing
 public struct MKLinkEvent {

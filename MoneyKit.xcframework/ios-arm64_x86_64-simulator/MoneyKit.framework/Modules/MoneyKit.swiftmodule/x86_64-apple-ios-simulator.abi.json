@@ -9319,20 +9319,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9361,13 +9347,6 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9405,20 +9384,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "MoneyKit"
       },
@@ -23675,13 +23640,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -27232,27 +27190,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoneyKit"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "MoneyKit"
       },
@@ -30917,294 +30854,259 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 18525,
+      "offset": 17887,
       "length": 43,
       "value": "\"Are you sure you want to leave \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 18566,
+      "offset": 17928,
       "length": 1,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 18591,
+      "offset": 17953,
       "length": 106,
       "value": "\"All progress will be lost and you will have to start over to\nconnect to \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 18696,
+      "offset": 18058,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 18796,
+      "offset": 18158,
       "length": 7,
       "value": "\"Leave\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 18976,
+      "offset": 18338,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 19043,
+      "offset": 18405,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 19124,
+      "offset": 18486,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 19203,
+      "offset": 18565,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 19281,
+      "offset": 18643,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 19358,
+      "offset": 18720,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20378,
+      "offset": 19740,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20442,
+      "offset": 19804,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20547,
+      "offset": 19909,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20644,
+      "offset": 20006,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20725,
+      "offset": 20087,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 21200,
+      "offset": 20562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 22490,
+      "offset": 22279,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 22554,
+      "offset": 23967,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 22659,
+      "offset": 25708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 22756,
+      "offset": 27091,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 23295,
+      "offset": 28421,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30010,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31744,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33778,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34113,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34398,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 24946,
+      "offset": 35452,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 26634,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28375,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29758,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31088,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 32677,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 34411,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 36445,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 36780,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 37065,
+      "offset": 35740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 38119,
+      "offset": 37130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 38407,
+      "offset": 37967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38166,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38704,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39715,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 40350,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 42607,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 39797,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 40634,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 40833,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 41371,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 42382,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 43017,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 45274,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Coordinators\/MKInstitutionLinkCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 45434,
+      "offset": 42767,
       "length": 4,
       "value": "true"
     },
@@ -36391,70 +36293,91 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5795,
+      "offset": 4978,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6872,
+      "offset": 5816,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6893,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7100,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7395,
+      "offset": 7437,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 7401,
+      "offset": 7443,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8003,
+      "offset": 8045,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9794,
+      "offset": 9836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10760,
+      "offset": 10014,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10823,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 11958,
+      "offset": 12021,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12004,
+      "offset": 12067,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKInstitutionLinkViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 13698,
+      "offset": 13761,
       "length": 4,
       "value": "true"
     },
@@ -45209,34 +45132,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKOauthWebViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1743,
-      "length": 44,
-      "value": "\"Connect to \""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKOauthWebViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1786,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKOauthWebViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1811,
-      "length": 55,
-      "value": "\"Sign into \""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Models\/MKOauthWebViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1831,
-      "length": 2,
-      "value": "\" to securely connect your accounts\""
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/Core\/Internal\/Models\/Analytics\/MKLinkScreen.swift",
       "kind": "StringLiteral",
       "offset": 745,
@@ -46135,42 +46030,49 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 897,
+      "offset": 883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 939,
+      "offset": 925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKSafariViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1313,
+      "offset": 1299,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1973,
+      "offset": 1713,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2830,
+      "offset": 2014,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKSafariViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2871,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKSafariViewController.swift",
       "kind": "StringLiteral",
-      "offset": 80,
+      "offset": 66,
       "length": 22,
       "value": "\"MoneyKit.MKSafariViewController\""
     },
@@ -46334,20 +46236,6 @@
       "offset": 401,
       "length": 4,
       "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/Core\/Internal\/Utils\/MKOauthParser.swift",
-      "kind": "StringLiteral",
-      "offset": 472,
-      "length": 14,
-      "value": "\"redirect_uri\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/Core\/Internal\/Utils\/MKOauthParser.swift",
-      "kind": "StringLiteral",
-      "offset": 796,
-      "length": 21,
-      "value": "\"client_redirect_url\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Views\/MKEasyTapButton.swift",
@@ -54458,49 +54346,49 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIViewControllerContextTransitioning+SheetModalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 12941,
+      "offset": 12818,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIViewControllerContextTransitioning+SheetModalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 12958,
+      "offset": 12835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIViewControllerContextTransitioning+SheetModalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 13751,
+      "offset": 13628,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIViewControllerContextTransitioning+SheetModalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 14297,
+      "offset": 14174,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIViewControllerContextTransitioning+SheetModalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 14314,
+      "offset": 14191,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIViewControllerContextTransitioning+SheetModalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 14793,
+      "offset": 14670,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Extensions\/UIViewControllerContextTransitioning+SheetModalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 15645,
+      "offset": 15412,
       "length": 1,
       "value": "0"
     },
@@ -54640,37 +54528,16 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Models\/MKInternalOauthType.swift",
       "kind": "StringLiteral",
-      "offset": 275,
+      "offset": 240,
       "length": 14,
       "value": "\"ASWebSession\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Models\/MKInternalOauthType.swift",
       "kind": "StringLiteral",
-      "offset": 331,
+      "offset": 296,
       "length": 8,
       "value": "\"Safari\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Models\/MKInternalOauthType.swift",
-      "kind": "StringLiteral",
-      "offset": 382,
-      "length": 9,
-      "value": "\"WebView\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/Core\/Internal\/Models\/MKWebConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 301,
-      "length": 16,
-      "value": "\"Privacy Policy\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/Core\/Internal\/Models\/MKWebConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 366,
-      "length": 16,
-      "value": "\"Reset Password\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Transitions\/MKScaleSlideTransition.swift",
@@ -57153,546 +57020,546 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "StringLiteral",
-      "offset": 7172,
+      "offset": 7173,
       "length": 57,
       "value": "\"init(frame:) has not been implemented, use init(theme:)\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "StringLiteral",
-      "offset": 7294,
+      "offset": 7295,
       "length": 57,
       "value": "\"init(coder:) has not been implemented, use init(theme:)\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7642,
+      "offset": 7643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7668,
+      "offset": 7669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7819,
+      "offset": 7820,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7855,
+      "offset": 7856,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7891,
+      "offset": 7892,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7975,
+      "offset": 7976,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7979,
+      "offset": 7980,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "StringLiteral",
-      "offset": 9330,
+      "offset": 9331,
       "length": 17,
       "value": "\"Score\n\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "StringLiteral",
-      "offset": 9346,
+      "offset": 9347,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9626,
+      "offset": 9627,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9637,
+      "offset": 9638,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 10372,
+      "offset": 10373,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10384,
+      "offset": 10385,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 10411,
+      "offset": 10412,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 10439,
+      "offset": 10440,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10511,
+      "offset": 10512,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10590,
+      "offset": 10591,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10596,
+      "offset": 10597,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10639,
+      "offset": 10640,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10677,
+      "offset": 10678,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 10745,
+      "offset": 10746,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 10753,
+      "offset": 10754,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10999,
+      "offset": 11000,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11095,
+      "offset": 11096,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "StringLiteral",
-      "offset": 11261,
+      "offset": 11262,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "StringLiteral",
-      "offset": 11270,
+      "offset": 11271,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11331,
+      "offset": 11332,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11367,
+      "offset": 11368,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 11407,
+      "offset": 11408,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11419,
+      "offset": 11420,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 11446,
+      "offset": 11447,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 11474,
+      "offset": 11475,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11571,
+      "offset": 11572,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11577,
+      "offset": 11578,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 11628,
+      "offset": 11629,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11640,
+      "offset": 11641,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11667,
+      "offset": 11668,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 11693,
+      "offset": 11694,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11760,
+      "offset": 11761,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "StringLiteral",
-      "offset": 11810,
+      "offset": 11811,
       "length": 22,
       "value": "\"Swipe to play again!\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11941,
+      "offset": 11942,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12016,
+      "offset": 12017,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12022,
+      "offset": 12023,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12064,
+      "offset": 12065,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12076,
+      "offset": 12077,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12103,
+      "offset": 12104,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12131,
+      "offset": 12132,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12265,
+      "offset": 12266,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12277,
+      "offset": 12278,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12304,
+      "offset": 12305,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12330,
+      "offset": 12331,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12402,
+      "offset": 12403,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12494,
+      "offset": 12495,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12506,
+      "offset": 12507,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12533,
+      "offset": 12534,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12561,
+      "offset": 12562,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12628,
+      "offset": 12629,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12702,
+      "offset": 12703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12708,
+      "offset": 12709,
       "length": 3,
       "value": "-24"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12803,
+      "offset": 12804,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12815,
+      "offset": 12816,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12842,
+      "offset": 12843,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 12870,
+      "offset": 12871,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12937,
+      "offset": 12938,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 13086,
+      "offset": 13087,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13098,
+      "offset": 13099,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 13125,
+      "offset": 13126,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 13153,
+      "offset": 13154,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13227,
+      "offset": 13228,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13308,
+      "offset": 13309,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13314,
+      "offset": 13315,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 13415,
+      "offset": 13416,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13427,
+      "offset": 13428,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 13454,
+      "offset": 13455,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "FloatLiteral",
-      "offset": 13482,
+      "offset": 13483,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Games\/Snake\/MKSnakeGameView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13556,
+      "offset": 13557,
       "length": 1,
       "value": "1"
     },
@@ -60548,91 +60415,98 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2353,
+      "offset": 2101,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2408,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3162,
+      "offset": 3217,
       "length": 5,
       "value": "0.001"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3335,
+      "offset": 3390,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3442,
+      "offset": 3497,
       "length": 2,
       "value": "88"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3793,
+      "offset": 3848,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3806,
+      "offset": 3861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4174,
+      "offset": 4229,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4802,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5206,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5401,
+      "offset": 4857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5826,
+      "offset": 5261,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6515,
+      "offset": 5456,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5881,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthSafariViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7139,
+      "offset": 7194,
       "length": 5,
       "value": "false"
     },
@@ -62532,468 +62406,6 @@
       "offset": 44,
       "length": 34,
       "value": "\"MoneyKit.MKInteractiveLoadingViewController\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1742,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1824,
-      "length": 2,
-      "value": "96"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1829,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2492,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3031,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3182,
-      "length": 2,
-      "value": "-6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3287,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3478,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3655,
-      "length": 2,
-      "value": "-6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3773,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4307,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4471,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4664,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5197,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5280,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5489,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6086,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6195,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6258,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6974,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6984,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7023,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7033,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7072,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7082,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7121,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7131,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7205,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7211,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7265,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7271,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7410,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7651,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8176,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8312,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 8638,
-      "length": 4,
-      "value": "0.35"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8651,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9019,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10362,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10415,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10723,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10728,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10830,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10963,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11200,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11273,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11505,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11833,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11886,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11928,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11971,
-      "length": 4,
-      "value": "0.15"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11984,
-      "length": 4,
-      "value": "0.01"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12037,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 58,
-      "length": 24,
-      "value": "\"MoneyKit.MKOauthWebViewController\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12337,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12480,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12516,
-      "length": 5,
-      "value": "\"www\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12558,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12622,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12814,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12989,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "Array",
-      "offset": 13116,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13138,
-      "length": 6,
-      "value": "\"code\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13173,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13262,
-      "length": 7,
-      "value": "\"code=\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKOauthWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13299,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/Questions\/MKSliderQuestionViewController.swift",
