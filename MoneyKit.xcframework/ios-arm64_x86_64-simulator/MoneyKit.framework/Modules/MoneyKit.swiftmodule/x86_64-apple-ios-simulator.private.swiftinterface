@@ -204,13 +204,13 @@ public struct MKControls {
     public init(height: CoreFoundation.CGFloat, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, interactionStyle: MoneyKit.MKTheme.InteractionStyle?, alignment: MoneyKit.MKTheme.ContentAlignment, cancelButtonType: MoneyKit.MKControls.SearchBar.CancelButtonType, backgroundColor: UIKit.UIColor)
   }
   public struct TextField {
-    public enum HelpButtonStyle {
+    public enum ButtonStyle {
       case text(_: Swift.String, tintColor: UIKit.UIColor? = nil)
       case icon(_: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
       case custom(text: Swift.String, icon: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
     }
     public var height: CoreFoundation.CGFloat
-    public var helpButtonStyle: MoneyKit.MKControls.TextField.HelpButtonStyle
+    public var helpButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle
     public var contentInset: UIKit.UIEdgeInsets?
     public var backgroundColor: UIKit.UIColor?
     public var highlightedBackgroundColor: UIKit.UIColor?
@@ -223,7 +223,7 @@ public struct MKControls {
     public var highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle
     public var selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle
     public init()
-    public init(height: CoreFoundation.CGFloat, helpButtonStyle: MoneyKit.MKControls.TextField.HelpButtonStyle, contentInset: UIKit.UIEdgeInsets?, backgroundColor: UIKit.UIColor?, highlightedBackgroundColor: UIKit.UIColor?, selectedBackgroundColor: UIKit.UIColor?, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle)
+    public init(height: CoreFoundation.CGFloat, helpButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle, showPasswordButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle, hidePasswordButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle, contentInset: UIKit.UIEdgeInsets?, backgroundColor: UIKit.UIColor?, highlightedBackgroundColor: UIKit.UIColor?, selectedBackgroundColor: UIKit.UIColor?, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle)
   }
   public struct Spinner {
     public var lineCap: QuartzCore.CAShapeLayerLineCap
