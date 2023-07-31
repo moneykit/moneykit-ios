@@ -223,7 +223,7 @@ public struct MKControls {
     public var highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle
     public var selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle
     public init()
-    public init(height: CoreFoundation.CGFloat, helpButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle, showPasswordButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle, hidePasswordButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle, contentInset: UIKit.UIEdgeInsets?, backgroundColor: UIKit.UIColor?, highlightedBackgroundColor: UIKit.UIColor?, selectedBackgroundColor: UIKit.UIColor?, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle)
+    public init(height: CoreFoundation.CGFloat, helpButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle, contentInset: UIKit.UIEdgeInsets?, backgroundColor: UIKit.UIColor?, highlightedBackgroundColor: UIKit.UIColor?, selectedBackgroundColor: UIKit.UIColor?, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle)
   }
   public struct Spinner {
     public var lineCap: QuartzCore.CAShapeLayerLineCap
