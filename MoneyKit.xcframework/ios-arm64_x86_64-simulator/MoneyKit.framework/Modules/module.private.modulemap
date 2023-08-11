@@ -1,0 +1,5 @@
+explicit module MoneyKit.Private {
+    header "http_parser.h"
+
+    export *
+}
