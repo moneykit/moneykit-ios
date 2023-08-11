@@ -8,6 +8,8 @@ import CryptoKit
 import Foundation
 import GameplayKit
 @_exported import MoneyKit
+import Network
+import MoneyKit.Private
 import SafariServices
 import Security
 import SpriteKit
@@ -528,7 +530,8 @@ public struct MKTypographyStyle {
   public var lineHeight: CoreFoundation.CGFloat
   public var letterSpacing: CoreFoundation.CGFloat
   public var weight: MoneyKit.MKTypographyStyle.Weight
-  public init(size: CoreFoundation.CGFloat, lineHeight: CoreFoundation.CGFloat, letterSpacing: CoreFoundation.CGFloat, weight: MoneyKit.MKTypographyStyle.Weight)
+  public var font: UIKit.UIFont?
+  public init(size: CoreFoundation.CGFloat, lineHeight: CoreFoundation.CGFloat, letterSpacing: CoreFoundation.CGFloat, weight: MoneyKit.MKTypographyStyle.Weight, font: UIKit.UIFont? = nil)
 }
 extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Equatable {}
 extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Hashable {}
