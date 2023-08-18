@@ -273,8 +273,8 @@ public struct MKControls {
 }
 @objc final public class MKLinkHandler : ObjectiveC.NSObject {
   public init(configuration: MoneyKit.MKConfiguration)
-  final public func presentLinkFlow(using presentationMethod: MoneyKit.MKPresentationMethod)
-  final public func presentRelinkFlow(on presentingViewController: UIKit.UIViewController)
+  final public func presentInstitutionSelectionFlow(using presentationMethod: MoneyKit.MKPresentationMethod)
+  final public func presentLinkFlow(on presentingViewController: UIKit.UIViewController)
   final public func continueFlow(from redirectUri: Foundation.URL)
   @objc deinit
 }
