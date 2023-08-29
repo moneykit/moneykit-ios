@@ -48942,427 +48942,441 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1941,
+      "offset": 1910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1983,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2046,
+      "offset": 2088,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3250,
+      "offset": 3292,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3597,
+      "offset": 3639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3678,
+      "offset": 3720,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3682,
+      "offset": 3724,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3991,
+      "offset": 4033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4410,
+      "offset": 4452,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4550,
+      "offset": 4592,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4585,
+      "offset": 4627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4833,
+      "offset": 4875,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5514,
+      "offset": 5556,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5555,
+      "offset": 5597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5858,
+      "offset": 5900,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6109,
+      "offset": 6151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6494,
+      "offset": 6536,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7072,
+      "offset": 7114,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7497,
+      "offset": 7539,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7599,
+      "offset": 7641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8057,
+      "offset": 8099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9171,
+      "offset": 9213,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9318,
+      "offset": 9360,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10415,
+      "offset": 10457,
       "length": 57,
       "value": "\"By tapping \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10451,
+      "offset": 10493,
       "length": 1,
       "value": "\", you agree to the\n\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10578,
+      "offset": 10620,
       "length": 49,
       "value": "\"MoneyKit End User Privacy Policy & Terms of Use\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10715,
+      "offset": 10757,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10760,
+      "offset": 10802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10881,
+      "offset": 10923,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11132,
+      "offset": 11174,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 11185,
+      "offset": 11227,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11253,
+      "offset": 11295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 11263,
+      "offset": 11305,
       "length": 4,
       "value": "0.08"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11350,
+      "offset": 11392,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11933,
+      "offset": 11975,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12321,
+      "offset": 12363,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12507,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12436,
+      "offset": 12627,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12448,
+      "offset": 12639,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12521,
+      "offset": 12712,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13095,
+      "offset": 13286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14918,
+      "offset": 15109,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 17186,
+      "offset": 17377,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 17198,
+      "offset": 17389,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 17592,
+      "offset": 17736,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17629,
+      "offset": 17773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18042,
+      "offset": 18186,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18143,
+      "offset": 18287,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18219,
+      "offset": 18363,
       "length": 18,
       "value": "\"opacityAnimation\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18290,
+      "offset": 18434,
       "length": 15,
       "value": "\"shadowOpacity\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18424,
+      "offset": 18568,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18428,
+      "offset": 18572,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18592,
+      "offset": 18736,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18656,
+      "offset": 18800,
       "length": 18,
       "value": "\"opacityAnimation\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18732,
+      "offset": 18876,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18736,
+      "offset": 18880,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18807,
+      "offset": 18951,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18811,
+      "offset": 18955,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 18934,
+      "offset": 19078,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19324,
+      "offset": 19468,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19336,
+      "offset": 19480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19403,
+      "offset": 19547,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19573,
+      "offset": 19717,
       "length": 2,
       "value": "\"\""
     },
@@ -49376,77 +49390,77 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20897,
+      "offset": 21041,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21035,
+      "offset": 21179,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21114,
+      "offset": 21258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21449,
+      "offset": 21593,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21544,
+      "offset": 21688,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21728,
+      "offset": 21872,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21760,
+      "offset": 21904,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21890,
+      "offset": 22034,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22275,
+      "offset": 22419,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22287,
+      "offset": 22431,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22381,
+      "offset": 22525,
       "length": 1,
       "value": "1"
     },
