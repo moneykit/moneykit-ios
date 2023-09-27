@@ -1,8 +1,11 @@
 framework module MoneyKit {
-  umbrella header "MoneyKit.h"
+    export *
 
-  export *
-  module * { export * }
+    explicit module Private {
+        header "http_parser.h"
+        link "MoneyKit"
+        export *
+    }
 }
 
 module MoneyKit.Swift {
