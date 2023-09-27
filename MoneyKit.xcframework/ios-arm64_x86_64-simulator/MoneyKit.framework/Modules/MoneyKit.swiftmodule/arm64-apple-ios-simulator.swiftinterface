@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoneyKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
 import CoreTelephony
 import CryptoKit
+import DeveloperToolsSupport
 import Foundation
 import GameplayKit
 @_exported import MoneyKit
@@ -14,10 +15,12 @@ import SafariServices
 import Security
 import SpriteKit
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public struct MKLinkEvent {
   public let name: Swift.String
   public let sessionId: Swift.String
@@ -118,8 +121,10 @@ public struct MKConfiguration {
     }
   }
   public let sessionToken: Swift.String
-  public let settings: MoneyKit.MKSettings
   public let version: Swift.String
+  public var settings: MoneyKit.MKSettings {
+    get
+  }
   public init(sessionToken: Swift.String, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, onError: MoneyKit.MKConfiguration.ErrorHandler = nil, settings: MoneyKit.MKSettings = MKSettings()) throws
 }
 public struct MKModalTransition {
@@ -275,6 +280,7 @@ public struct MKControls {
   public init(configuration: MoneyKit.MKConfiguration)
   final public func presentInstitutionSelectionFlow(using presentationMethod: MoneyKit.MKPresentationMethod)
   final public func presentLinkFlow(on presentingViewController: UIKit.UIViewController)
+  final public func presentFailoverLinkFlow(for failoverEvent: MoneyKit.MKFailoverEvent, on presentingViewController: UIKit.UIViewController)
   final public func continueFlow(from redirectUri: Foundation.URL)
   @objc deinit
 }
@@ -448,6 +454,10 @@ public enum MKGame {
     get
   }
 }
+public struct MKFailoverEvent {
+  public let institutionId: Swift.String
+  public let institutionName: Swift.String
+}
 public protocol MKPushTransition {
   var transitionDuration: Foundation.TimeInterval { get }
   func transition(container: UIKit.UIView, fromViewController: UIKit.UIViewController, toViewController: UIKit.UIViewController, isDismissing: Swift.Bool, completion: @escaping () -> Swift.Void)
@@ -532,6 +542,13 @@ public struct MKTypographyStyle {
   public var weight: MoneyKit.MKTypographyStyle.Weight
   public var font: UIKit.UIFont?
   public init(size: CoreFoundation.CGFloat, lineHeight: CoreFoundation.CGFloat, letterSpacing: CoreFoundation.CGFloat, weight: MoneyKit.MKTypographyStyle.Weight, font: UIKit.UIFont? = nil)
+}
+final public class MKFailoverListener {
+  public typealias FailoverHandler = ((MoneyKit.MKFailoverEvent) -> Swift.Void)
+  final public var onFailover: MoneyKit.MKFailoverListener.FailoverHandler?
+  public init(clientId: Swift.String, onFailover: MoneyKit.MKFailoverListener.FailoverHandler? = nil)
+  final public func processPlaidEvent(_ event: any Swift.Decodable & Swift.Encodable)
+  @objc deinit
 }
 extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Equatable {}
 extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Hashable {}
