@@ -45194,113 +45194,71 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3006,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3021,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3033,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3042,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3053,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3081,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3135,
+      "offset": 3041,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3209,
+      "offset": 3115,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 3308,
+      "offset": 3214,
       "length": 4,
       "value": "0.06"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 3382,
+      "offset": 3288,
       "length": 4,
       "value": "0.06"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3451,
+      "offset": 3357,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3733,
+      "offset": 3639,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3808,
+      "offset": 3714,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3818,
+      "offset": 3724,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3830,
+      "offset": 3736,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Public\/MKInstitutionSelectScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3841,
+      "offset": 3747,
       "length": 2,
       "value": "24"
     },
@@ -69548,100 +69506,100 @@
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1836,
-      "length": 35,
-      "value": "\"MoneyUI\/Colors\/Foreground\/Primary\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2049,
-      "length": 37,
-      "value": "\"MoneyUI\/Colors\/Foreground\/Secondary\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2262,
-      "length": 36,
-      "value": "\"MoneyUI\/Colors\/Foreground\/Tertiary\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2734,
-      "length": 41,
-      "value": "\"MoneyUI\/Colors\/Elevated\/Content\/Primary\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2967,
-      "length": 43,
-      "value": "\"MoneyUI\/Colors\/Elevated\/Content\/Secondary\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3350,
+      "offset": 1979,
       "length": 44,
       "value": "\"MoneyUI\/Colors\/Elevated\/Background\/Primary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3589,
+      "offset": 2218,
       "length": 46,
       "value": "\"MoneyUI\/Colors\/Elevated\/Background\/Secondary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3947,
-      "length": 32,
-      "value": "\"MoneyUI\/Colors\/Content\/Primary\""
+      "offset": 2595,
+      "length": 41,
+      "value": "\"MoneyUI\/Colors\/Elevated\/Content\/Primary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4154,
-      "length": 34,
-      "value": "\"MoneyUI\/Colors\/Content\/Secondary\""
+      "offset": 2828,
+      "length": 43,
+      "value": "\"MoneyUI\/Colors\/Elevated\/Content\/Secondary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4490,
+      "offset": 3192,
       "length": 35,
       "value": "\"MoneyUI\/Colors\/Background\/Primary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4703,
+      "offset": 3405,
       "length": 37,
       "value": "\"MoneyUI\/Colors\/Background\/Secondary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5024,
+      "offset": 3735,
+      "length": 32,
+      "value": "\"MoneyUI\/Colors\/Content\/Primary\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3942,
+      "length": 34,
+      "value": "\"MoneyUI\/Colors\/Content\/Secondary\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4260,
       "length": 29,
       "value": "\"MoneyUI\/Colors\/Fill\/Primary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5225,
+      "offset": 4461,
       "length": 31,
       "value": "\"MoneyUI\/Colors\/Fill\/Secondary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5426,
+      "offset": 4662,
       "length": 30,
       "value": "\"MoneyUI\/Colors\/Fill\/Tertiary\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4994,
+      "length": 35,
+      "value": "\"MoneyUI\/Colors\/Foreground\/Primary\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5207,
+      "length": 37,
+      "value": "\"MoneyUI\/Colors\/Foreground\/Secondary\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5420,
+      "length": 36,
+      "value": "\"MoneyUI\/Colors\/Foreground\/Tertiary\""
     },
     {
       "filePath": "\/Users\/distiller\/Library\/Developer\/Xcode\/DerivedData\/MoneyKit-fivbwjnbpogrvpasyctfhrloqpne\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoneyKit\/IntermediateBuildFilesPath\/MoneyKit.build\/Production-iphonesimulator\/MoneyKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
