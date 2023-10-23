@@ -200,12 +200,19 @@ public struct MKControls {
     public var height: CoreFoundation.CGFloat
     public var cornerStyle: MoneyKit.MKTheme.CornerStyle
     public var borderStyle: MoneyKit.MKTheme.BorderStyle
+    public var highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle?
+    public var selectedBorderStyle: MoneyKit.MKTheme.BorderStyle?
+    public var shadowStyle: MoneyKit.MKTheme.ShadowStyle
+    public var highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle?
+    public var selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle?
     public var interactionStyle: MoneyKit.MKTheme.InteractionStyle?
     public var alignment: MoneyKit.MKTheme.ContentAlignment
     public var cancelButtonType: MoneyKit.MKControls.SearchBar.CancelButtonType
     public var backgroundColor: UIKit.UIColor
+    public var highlightedBackgroundColor: UIKit.UIColor?
+    public var selectedBackgroundColor: UIKit.UIColor?
     public init()
-    public init(height: CoreFoundation.CGFloat, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, interactionStyle: MoneyKit.MKTheme.InteractionStyle?, alignment: MoneyKit.MKTheme.ContentAlignment, cancelButtonType: MoneyKit.MKControls.SearchBar.CancelButtonType, backgroundColor: UIKit.UIColor)
+    public init(height: CoreFoundation.CGFloat, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle? = nil, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle? = nil, shadowStyle: MoneyKit.MKTheme.ShadowStyle = .none, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle? = nil, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle? = nil, interactionStyle: MoneyKit.MKTheme.InteractionStyle?, alignment: MoneyKit.MKTheme.ContentAlignment, cancelButtonType: MoneyKit.MKControls.SearchBar.CancelButtonType, backgroundColor: UIKit.UIColor, highlightedBackgroundColor: UIKit.UIColor? = nil, selectedBackgroundColor: UIKit.UIColor? = nil)
   }
   public struct TextField {
     public enum ButtonStyle {
@@ -252,6 +259,11 @@ public struct MKControls {
     public init()
     public init(cornerStyle: MoneyKit.MKTheme.CornerStyle)
   }
+  public struct Separator {
+    public var height: CoreFoundation.CGFloat
+    public init()
+    public init(height: CoreFoundation.CGFloat)
+  }
   public struct ContentView {
     public var layoutStyle: MoneyKit.MKTheme.LayoutStyle
     public var cornerStyle: MoneyKit.MKTheme.CornerStyle
@@ -270,8 +282,9 @@ public struct MKControls {
   public var progressSpinner: MoneyKit.MKControls.ProgressSpinner
   public var listItemView: MoneyKit.MKControls.ListItemView
   public var actionSheet: MoneyKit.MKControls.ActionSheet
+  public var separator: MoneyKit.MKControls.Separator
   public init()
-  public init(navigationBar: MoneyKit.MKControls.NavigationBar, contentView: MoneyKit.MKControls.ContentView, button: MoneyKit.MKControls.Button, searchBar: MoneyKit.MKControls.SearchBar, textField: MoneyKit.MKControls.TextField, spinner: MoneyKit.MKControls.Spinner, progressSpinner: MoneyKit.MKControls.ProgressSpinner, listItemView: MoneyKit.MKControls.ListItemView, actionSheet: MoneyKit.MKControls.ActionSheet)
+  public init(navigationBar: MoneyKit.MKControls.NavigationBar, contentView: MoneyKit.MKControls.ContentView, button: MoneyKit.MKControls.Button, searchBar: MoneyKit.MKControls.SearchBar, textField: MoneyKit.MKControls.TextField, spinner: MoneyKit.MKControls.Spinner, progressSpinner: MoneyKit.MKControls.ProgressSpinner, listItemView: MoneyKit.MKControls.ListItemView, actionSheet: MoneyKit.MKControls.ActionSheet, separator: MoneyKit.MKControls.Separator)
 }
 @objc final public class MKLinkHandler : ObjectiveC.NSObject {
   public init(configuration: MoneyKit.MKConfiguration)
@@ -359,12 +372,14 @@ extension MoneyKit.MKTheme {
     case none
   }
   public struct Shadow {
+    public var inset: Swift.Bool
     public var offsetX: CoreFoundation.CGFloat
     public var offsetY: CoreFoundation.CGFloat
     public var blur: CoreFoundation.CGFloat
+    public var spread: CoreFoundation.CGFloat
     public var color: UIKit.UIColor
     public var opacity: CoreFoundation.CGFloat
-    public init(offsetX: CoreFoundation.CGFloat = 0, offsetY: CoreFoundation.CGFloat = 0, blur: CoreFoundation.CGFloat = 0, color: UIKit.UIColor = .black, opacity: CoreFoundation.CGFloat = 1.0)
+    public init(inset: Swift.Bool = false, offsetX: CoreFoundation.CGFloat = 0, offsetY: CoreFoundation.CGFloat = 0, blur: CoreFoundation.CGFloat = 0, spread: CoreFoundation.CGFloat = 0, color: UIKit.UIColor = .black, opacity: CoreFoundation.CGFloat = 1.0)
   }
   public struct InteractionStyle {
     public var haptic: Swift.Bool
