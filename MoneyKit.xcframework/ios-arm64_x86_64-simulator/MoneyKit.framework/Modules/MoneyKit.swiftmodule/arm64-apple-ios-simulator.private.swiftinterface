@@ -6,6 +6,7 @@ import CoreTelephony
 import DeveloperToolsSupport
 import Foundation
 import GameplayKit
+import LocalAuthentication
 @_exported import MoneyKit
 import Network
 import MoneyKit.Private
@@ -108,7 +109,7 @@ extension MoneyKit.MKPageSheetStyle {
 }
 public struct MKConfiguration {
   public typealias SuccessHandler = ((MoneyKit.MKLinkSuccessType) -> Swift.Void)?
-  public typealias ExitHandler = (() -> Swift.Void)?
+  public typealias ExitHandler = ((MoneyKit.MKLinkError?) -> Swift.Void)?
   public typealias ErrorHandler = ((MoneyKit.MKLinkError) -> Swift.Void)?
   public typealias EventHandler = ((MoneyKit.MKLinkEvent) -> Swift.Void)?
   public enum ConfigurationError : Swift.Error, Foundation.LocalizedError {
@@ -122,7 +123,7 @@ public struct MKConfiguration {
   public var settings: MoneyKit.MKSettings {
     get
   }
-  public init(sessionToken: Swift.String, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, onError: MoneyKit.MKConfiguration.ErrorHandler = nil, settings: MoneyKit.MKSettings = MKSettings()) throws
+  public init(sessionToken: Swift.String, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, settings: MoneyKit.MKSettings = MKSettings()) throws
 }
 public struct MKModalTransition {
   public var style: MoneyKit.MKPresentationStyle
@@ -432,11 +433,12 @@ public struct MKGameContent {
   public init()
   public init(game: MoneyKit.MKGame, contentStyle: MoneyKit.MKContentStyle)
 }
-public struct MKAccount {
+public struct MKAccount : Swift.Equatable {
   public let id: Swift.String
   public let name: Swift.String
   public let type: Swift.String
   public let mask: Swift.String?
+  public static func == (a: MoneyKit.MKAccount, b: MoneyKit.MKAccount) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -502,10 +504,9 @@ public struct MKSpacing {
   public init(contentHorizontalInset: CoreFoundation.CGFloat, buttonHorizontalInset: CoreFoundation.CGFloat)
 }
 public struct MKLinkError {
-  public let name: Swift.String
+  public let identifier: Swift.String
   public let displayedMessage: Swift.String
   public let requestId: Swift.String?
-  public let event: MoneyKit.MKLinkEvent
 }
 public struct MKFullScreenStyle {
   public var primaryViewCornerRadius: CoreFoundation.CGFloat

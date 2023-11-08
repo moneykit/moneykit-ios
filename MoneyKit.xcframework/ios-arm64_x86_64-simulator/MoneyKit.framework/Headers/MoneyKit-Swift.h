@@ -300,6 +300,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+
 /// <code>MKLinkHandler</code> provides ways to open the MoneyKit SDK.
 SWIFT_CLASS("_TtC8MoneyKit13MKLinkHandler")
 @interface MKLinkHandler : NSObject
@@ -651,6 +652,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
 
 
 /// <code>MKLinkHandler</code> provides ways to open the MoneyKit SDK.
