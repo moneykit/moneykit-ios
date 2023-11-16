@@ -110,11 +110,13 @@ extension MoneyKit.MKPageSheetStyle {
 public struct MKConfiguration {
   public typealias SuccessHandler = ((MoneyKit.MKLinkSuccessType) -> Swift.Void)?
   public typealias ExitHandler = ((MoneyKit.MKLinkError?) -> Swift.Void)?
-  public typealias ErrorHandler = ((MoneyKit.MKLinkError) -> Swift.Void)?
   public typealias EventHandler = ((MoneyKit.MKLinkEvent) -> Swift.Void)?
   public enum ConfigurationError : Swift.Error, Foundation.LocalizedError {
     case invalidSessionToken(Swift.String)
     public var localizedDescription: Swift.String {
+      get
+    }
+    public var identifier: Swift.String {
       get
     }
   }
@@ -476,21 +478,25 @@ public protocol MKPushTransition {
   var transitionDuration: Foundation.TimeInterval { get }
   func transition(container: UIKit.UIView, fromViewController: UIKit.UIViewController, toViewController: UIKit.UIViewController, isDismissing: Swift.Bool, completion: @escaping () -> Swift.Void)
 }
-public struct MKLinkedInstitution {
+public struct MKLinkedInstitution : Swift.Codable {
   public let institution: MoneyKit.MKInstitution
   public let accounts: [MoneyKit.MKAccount]
   public let token: MoneyKit.MKExchangeableToken
   public let trackedScreens: [MoneyKit.MKTrackedScreen]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension MoneyKit.MKLinkedInstitution {
   public var totalTimeToLink: Swift.Double {
     get
   }
 }
-public struct MKRelinkedInstitution {
+public struct MKRelinkedInstitution : Swift.Codable {
   public let institution: MoneyKit.MKInstitution
   public let accounts: [MoneyKit.MKAccount]
   public let trackedScreens: [MoneyKit.MKTrackedScreen]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension MoneyKit.MKRelinkedInstitution {
   public var totalTimeToLink: Swift.Double {
