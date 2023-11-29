@@ -21,8 +21,8 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public struct MKLinkEvent {
   public let name: Swift.String
-  public let sessionId: Swift.String
   public let properties: [Swift.String : Any]
+  public let meta: [Swift.String : Any]
 }
 public enum MKLinkSuccessType {
   case linked(MoneyKit.MKLinkedInstitution)
