@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MoneyKit'
   s.module_name      = 'MoneyKit'
-  s.version          = '1.1.9'
+  s.version          = '1.1.10'
 
   s.summary          = 'MoneyKit for iOS is a quick and secure way to link bank accounts from within your iOS app.'
 
