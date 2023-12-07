@@ -18,19 +18,9 @@ class ExampleViewController: UIViewController {
         do {
             let configuration = try MKConfiguration(
                 sessionToken: linkSessionToken,
-                onSuccess: { successType in
-                    switch successType {
-                    case let .linked(institution):
-                        print("Linked - Token to exchange: \(institution.token.value)")
-                    case .relinked:
-                        print("Relinked")
-                    @unknown default:
-                        print("Future MKLinkSuccessType")
-                    }
-                },
-                onExit: moneyLinkExit,
-                onEvent: moneyLinkEvent(event:),
-                onError: moneyLinkError(error:)
+                onSuccess: onSuccess(successType:),
+                onExit: onExit(error:),
+                onEvent: onEvent(event:)
             )
 
             linkHandler = MKLinkHandler(configuration: configuration)
@@ -43,7 +33,7 @@ class ExampleViewController: UIViewController {
         super.viewDidAppear(animated)
 
         let presentationMethod = MKPresentationMethod.modal(presentingViewController: self)
-        linkHandler?.presentLinkFlow(using: presentationMethod)
+        linkHandler?.presentInstitutionSelectionFlow(using: presentationMethod)
     }
 
     // MARK: - Internal functions
@@ -54,17 +44,22 @@ class ExampleViewController: UIViewController {
 
     // MARK: - Private functions
 
-    private func moneyLinkExit() {
-        print("MoneyLink session ended")
+    private func onSuccess(successType: MKLinkSuccessType) {
+        switch successType {
+        case let .linked(institution):
+            print("Linked - Token to exchange: \(institution.token.value)")
+        case .relinked:
+            print("Relinked")
+        @unknown default:
+            print("Future MKLinkSuccessType")
+        }
     }
 
-    private func moneyLinkError(error: MKLinkError) {
-        print("ERROR - \(error)")
+    private func onExit(error: MKLinkError?) {
+        print("Connect session ended")
     }
 
-    private func moneyLinkEvent(event: MKLinkEvent) {
+    private func onEvent(event: MKLinkEvent) {
         print("EVENT - \(event)")
     }
-
 }
-
