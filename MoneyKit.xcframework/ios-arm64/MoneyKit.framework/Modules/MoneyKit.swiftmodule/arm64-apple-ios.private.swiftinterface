@@ -510,7 +510,7 @@ public struct MKSpacing {
   public init(contentHorizontalInset: CoreFoundation.CGFloat, buttonHorizontalInset: CoreFoundation.CGFloat)
 }
 public struct MKLinkError {
-  public let identifier: Swift.String
+  public let errorId: Swift.String
   public let displayedMessage: Swift.String
   public let requestId: Swift.String?
 }
