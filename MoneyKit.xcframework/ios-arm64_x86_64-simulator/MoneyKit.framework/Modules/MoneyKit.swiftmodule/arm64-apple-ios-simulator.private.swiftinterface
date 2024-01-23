@@ -138,12 +138,6 @@ public struct MKModalTransition {
   public init()
   public init(style: MoneyKit.MKPresentationStyle, overlayColor: UIKit.UIColor, scaledOverlayColor: UIKit.UIColor, presentingAnimationDuration: CoreFoundation.CGFloat, presentingAnimationDamping: CoreFoundation.CGFloat, dismissingAnimationDuration: CoreFoundation.CGFloat, dismissingAnimationDamping: CoreFoundation.CGFloat)
 }
-public enum MKPresentationMethod {
-  public typealias PresentationHandler = (UIKit.UIViewController) -> Swift.Void
-  public typealias DismissalHandler = (UIKit.UIViewController) -> Swift.Void
-  case modal(presentingViewController: UIKit.UIViewController)
-  case custom(presentationHandler: MoneyKit.MKPresentationMethod.PresentationHandler, dismissalHandler: MoneyKit.MKPresentationMethod.DismissalHandler)
-}
 public struct MKInstitutionSelectScreen {
   public var title: Swift.String
   public var subtitle: Swift.String?
@@ -291,7 +285,6 @@ public struct MKControls {
 }
 @objc final public class MKLinkHandler : ObjectiveC.NSObject {
   public init(configuration: MoneyKit.MKConfiguration)
-  final public func presentInstitutionSelectionFlow(using presentationMethod: MoneyKit.MKPresentationMethod)
   final public func presentLinkFlow(on presentingViewController: UIKit.UIViewController)
   final public func presentFailoverLinkFlow(for failoverEvent: MoneyKit.MKFailoverEvent, on presentingViewController: UIKit.UIViewController)
   final public func continueFlow(from redirectUri: Foundation.URL)
