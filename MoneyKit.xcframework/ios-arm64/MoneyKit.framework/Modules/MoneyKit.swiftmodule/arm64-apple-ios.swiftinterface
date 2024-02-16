@@ -16,6 +16,7 @@ import Swift
 import SwiftUI
 import SystemConfiguration
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -285,7 +286,6 @@ public struct MKControls {
 @objc final public class MKLinkHandler : ObjectiveC.NSObject {
   public init(configuration: MoneyKit.MKConfiguration)
   final public func presentLinkFlow(on presentingViewController: UIKit.UIViewController)
-  final public func presentFailoverLinkFlow(for failoverEvent: MoneyKit.MKFailoverEvent, on presentingViewController: UIKit.UIViewController)
   final public func continueFlow(from redirectUri: Foundation.URL)
   @objc deinit
 }
@@ -462,10 +462,6 @@ public enum MKGame {
     get
   }
 }
-public struct MKFailoverEvent {
-  public let institutionId: Swift.String
-  public let institutionName: Swift.String
-}
 public protocol MKPushTransition {
   var transitionDuration: Foundation.TimeInterval { get }
   func transition(container: UIKit.UIView, fromViewController: UIKit.UIViewController, toViewController: UIKit.UIViewController, isDismissing: Swift.Bool, completion: @escaping () -> Swift.Void)
@@ -553,13 +549,6 @@ public struct MKTypographyStyle {
   public var weight: MoneyKit.MKTypographyStyle.Weight
   public var font: UIKit.UIFont?
   public init(size: CoreFoundation.CGFloat, lineHeight: CoreFoundation.CGFloat, letterSpacing: CoreFoundation.CGFloat, weight: MoneyKit.MKTypographyStyle.Weight, font: UIKit.UIFont? = nil)
-}
-final public class MKFailoverListener {
-  public typealias FailoverHandler = ((MoneyKit.MKFailoverEvent) -> Swift.Void)
-  final public var onFailover: MoneyKit.MKFailoverListener.FailoverHandler?
-  public init(clientId: Swift.String, onFailover: MoneyKit.MKFailoverListener.FailoverHandler? = nil)
-  final public func processPlaidEvent(_ event: any Swift.Decodable & Swift.Encodable)
-  @objc deinit
 }
 extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Equatable {}
 extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Hashable {}
