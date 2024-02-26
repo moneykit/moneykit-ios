@@ -32,8 +32,7 @@ class ExampleViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        let presentationMethod = MKPresentationMethod.modal(presentingViewController: self)
-        linkHandler?.presentInstitutionSelectionFlow(using: presentationMethod)
+        linkHandler?.presentLinkFlow(on: self)
     }
 
     // MARK: - Internal functions

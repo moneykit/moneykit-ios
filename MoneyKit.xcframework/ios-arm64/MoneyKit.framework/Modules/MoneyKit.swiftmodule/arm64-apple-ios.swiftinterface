@@ -1,7 +1,8 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoneyKit
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoneyKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
 import CoreTelephony
 import DeveloperToolsSupport
 import Foundation
@@ -20,6 +21,20 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_Concurrency.MainActor(unsafe) public struct MKConnectView : SwiftUI.UIViewControllerRepresentable {
+  public typealias UIViewControllerType = UIKit.UIViewController
+  @_Concurrency.MainActor(unsafe) public init(viewModel: MoneyKit.MKConnectViewModel)
+  @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: MoneyKit.MKConnectView.Context) -> MoneyKit.MKConnectView.UIViewControllerType
+  @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: MoneyKit.MKConnectView.UIViewControllerType, context: MoneyKit.MKConnectView.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+}
+final public class MKConnectViewModel : Combine.ObservableObject {
+  final public var linkHandler: MoneyKit.MKLinkHandler?
+  public init(linkHandler: MoneyKit.MKLinkHandler? = nil)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
 public struct MKLinkEvent {
   public let name: Swift.String
   public let properties: [Swift.String : Any]
@@ -113,7 +128,7 @@ public struct MKConfiguration {
   public typealias EventHandler = ((MoneyKit.MKLinkEvent) -> Swift.Void)?
   public enum ConfigurationError : Swift.Error, Foundation.LocalizedError {
     case invalidSessionToken(Swift.String)
-    public var localizedDescription: Swift.String {
+    public var errorDescription: Swift.String? {
       get
     }
     public var identifier: Swift.String {
