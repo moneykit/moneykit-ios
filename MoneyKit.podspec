@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MoneyKit'
   s.module_name      = 'MoneyKit'
-  s.version          = '1.4.0'
+  s.version          = '1.5.0'
 
   s.summary          = 'MoneyKit for iOS is a quick and secure way to link bank accounts from within your iOS app.'
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = 'MoneyKit'
 
-  s.platform         = :ios, '13.0'
+  s.platform         = :ios, '14.0'
   s.source           = { :git => 'https://github.com/moneykit/moneykit-ios.git', :tag => s.version }
 
   s.ios.frameworks   = 'Foundation', 'UIKit', 'WebKit', 'SafariServices', 'CryptoKit', 'Security', 'GameplayKit', 'SpriteKit', 'CoreTelephony', 'SystemConfiguration'
