@@ -3,7 +3,6 @@
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoneyKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
-import CoreTelephony
 import DeveloperToolsSupport
 import Foundation
 import GameplayKit
