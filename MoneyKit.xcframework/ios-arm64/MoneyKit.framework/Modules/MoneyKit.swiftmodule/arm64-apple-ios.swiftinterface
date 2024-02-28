@@ -98,13 +98,14 @@ public struct MKImages {
   public var permissionBalances: UIKit.UIImage
   public var permissionTransactions: UIKit.UIImage
   public var permissionIdentity: UIKit.UIImage
+  public var permissionInvestments: UIKit.UIImage
   public var search: UIKit.UIImage
   public var clear: UIKit.UIImage
   public var spinner: UIKit.UIImage
   public var verified: UIKit.UIImage
   public var info: UIKit.UIImage
   public init()
-  public init(back: UIKit.UIImage, close: UIKit.UIImage, closeSheet: UIKit.UIImage, lock: UIKit.UIImage, lockSmall: UIKit.UIImage, helpTextField: UIKit.UIImage, errorSmall: UIKit.UIImage, checkbox: UIKit.UIImage, checkboxSelected: UIKit.UIImage, disclosure: UIKit.UIImage, radio: UIKit.UIImage, radioSelected: UIKit.UIImage, externalArrow: UIKit.UIImage, mfaSMS: UIKit.UIImage, mfaEmail: UIKit.UIImage, mfaPhone: UIKit.UIImage, permissionAccountNumbers: UIKit.UIImage, permissionBalances: UIKit.UIImage, permissionTransactions: UIKit.UIImage, permissionIdentity: UIKit.UIImage, search: UIKit.UIImage, clear: UIKit.UIImage, spinner: UIKit.UIImage, verified: UIKit.UIImage, info: UIKit.UIImage)
+  public init(back: UIKit.UIImage, close: UIKit.UIImage, closeSheet: UIKit.UIImage, lock: UIKit.UIImage, lockSmall: UIKit.UIImage, helpTextField: UIKit.UIImage, errorSmall: UIKit.UIImage, checkbox: UIKit.UIImage, checkboxSelected: UIKit.UIImage, disclosure: UIKit.UIImage, radio: UIKit.UIImage, radioSelected: UIKit.UIImage, externalArrow: UIKit.UIImage, mfaSMS: UIKit.UIImage, mfaEmail: UIKit.UIImage, mfaPhone: UIKit.UIImage, permissionAccountNumbers: UIKit.UIImage, permissionBalances: UIKit.UIImage, permissionTransactions: UIKit.UIImage, permissionIdentity: UIKit.UIImage, permissionInvestments: UIKit.UIImage, search: UIKit.UIImage, clear: UIKit.UIImage, spinner: UIKit.UIImage, verified: UIKit.UIImage, info: UIKit.UIImage)
 }
 public struct MKPageSheetStyle {
   public var primaryViewCornerRadius: CoreFoundation.CGFloat
