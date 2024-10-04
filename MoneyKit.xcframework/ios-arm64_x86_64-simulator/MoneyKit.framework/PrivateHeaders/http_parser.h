@@ -20,9 +20,6 @@
  */
 #ifndef http_parser_h
 #define http_parser_h
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 /* Also update SONAME in the Makefile whenever you change these. */
 #define HTTP_PARSER_VERSION_MAJOR 2
@@ -457,8 +454,5 @@ struct http_parser_url_url {
 int http_parser_parse_url_url (const char *buf, size_t buflen,
                                int is_connect, struct http_parser_url_url *u);
 
-#ifdef __cplusplus
-}
-#endif
 #endif
 
