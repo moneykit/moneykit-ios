@@ -88,7 +88,6 @@ public struct MKImages {
   public var closeSheet: UIKit.UIImage
   public var lock: UIKit.UIImage
   public var lockSmall: UIKit.UIImage
-  public var helpTextField: UIKit.UIImage
   public var errorSmall: UIKit.UIImage
   public var checkbox: UIKit.UIImage
   public var checkboxSelected: UIKit.UIImage
@@ -110,7 +109,7 @@ public struct MKImages {
   public var verified: UIKit.UIImage
   public var info: UIKit.UIImage
   public init()
-  public init(back: UIKit.UIImage, close: UIKit.UIImage, closeSheet: UIKit.UIImage, lock: UIKit.UIImage, lockSmall: UIKit.UIImage, helpTextField: UIKit.UIImage, errorSmall: UIKit.UIImage, checkbox: UIKit.UIImage, checkboxSelected: UIKit.UIImage, disclosure: UIKit.UIImage, radio: UIKit.UIImage, radioSelected: UIKit.UIImage, externalArrow: UIKit.UIImage, mfaSMS: UIKit.UIImage, mfaEmail: UIKit.UIImage, mfaPhone: UIKit.UIImage, permissionAccountNumbers: UIKit.UIImage, permissionBalances: UIKit.UIImage, permissionTransactions: UIKit.UIImage, permissionIdentity: UIKit.UIImage, permissionInvestments: UIKit.UIImage, search: UIKit.UIImage, clear: UIKit.UIImage, spinner: UIKit.UIImage, verified: UIKit.UIImage, info: UIKit.UIImage)
+  public init(back: UIKit.UIImage, close: UIKit.UIImage, closeSheet: UIKit.UIImage, lock: UIKit.UIImage, lockSmall: UIKit.UIImage, errorSmall: UIKit.UIImage, checkbox: UIKit.UIImage, checkboxSelected: UIKit.UIImage, disclosure: UIKit.UIImage, radio: UIKit.UIImage, radioSelected: UIKit.UIImage, externalArrow: UIKit.UIImage, mfaSMS: UIKit.UIImage, mfaEmail: UIKit.UIImage, mfaPhone: UIKit.UIImage, permissionAccountNumbers: UIKit.UIImage, permissionBalances: UIKit.UIImage, permissionTransactions: UIKit.UIImage, permissionIdentity: UIKit.UIImage, permissionInvestments: UIKit.UIImage, search: UIKit.UIImage, clear: UIKit.UIImage, spinner: UIKit.UIImage, verified: UIKit.UIImage, info: UIKit.UIImage)
 }
 public struct MKPageSheetStyle {
   public var primaryViewCornerRadius: CoreFoundation.CGFloat
@@ -232,13 +231,7 @@ public struct MKControls {
     public init(height: CoreFoundation.CGFloat, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle? = nil, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle? = nil, shadowStyle: MoneyKit.MKTheme.ShadowStyle = .none, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle? = nil, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle? = nil, interactionStyle: MoneyKit.MKTheme.InteractionStyle?, alignment: MoneyKit.MKTheme.ContentAlignment, cancelButtonType: MoneyKit.MKControls.SearchBar.CancelButtonType, backgroundColor: UIKit.UIColor, highlightedBackgroundColor: UIKit.UIColor? = nil, selectedBackgroundColor: UIKit.UIColor? = nil)
   }
   public struct TextField {
-    public enum ButtonStyle {
-      case text(_: Swift.String, tintColor: UIKit.UIColor? = nil)
-      case icon(_: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
-      case custom(text: Swift.String, icon: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
-    }
     public var height: CoreFoundation.CGFloat
-    public var helpButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle
     public var contentInset: UIKit.UIEdgeInsets?
     public var backgroundColor: UIKit.UIColor?
     public var highlightedBackgroundColor: UIKit.UIColor?
@@ -251,7 +244,7 @@ public struct MKControls {
     public var highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle
     public var selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle
     public init()
-    public init(height: CoreFoundation.CGFloat, helpButtonStyle: MoneyKit.MKControls.TextField.ButtonStyle, contentInset: UIKit.UIEdgeInsets?, backgroundColor: UIKit.UIColor?, highlightedBackgroundColor: UIKit.UIColor?, selectedBackgroundColor: UIKit.UIColor?, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle)
+    public init(height: CoreFoundation.CGFloat, contentInset: UIKit.UIEdgeInsets?, backgroundColor: UIKit.UIColor?, highlightedBackgroundColor: UIKit.UIColor?, selectedBackgroundColor: UIKit.UIColor?, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle)
   }
   public struct Spinner {
     public var lineCap: QuartzCore.CAShapeLayerLineCap
