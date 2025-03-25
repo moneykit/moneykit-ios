@@ -482,7 +482,9 @@ public protocol MKPushTransition {
 public struct MKLinkedInstitution : Swift.Codable {
   public let institution: MoneyKit.MKInstitution
   public let accounts: [MoneyKit.MKAccount]
+  @available(*, deprecated, message: "This will be removed in MoneyKit 2.0.0. Please use `linkIdentifier` instead")
   public let token: MoneyKit.MKExchangeableToken
+  public let linkIdentifier: MoneyKit.MKLinkIdentifier
   public let trackedScreens: [MoneyKit.MKTrackedScreen]
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -543,6 +545,11 @@ public struct MKTransitions {
   public var modalTransition: MoneyKit.MKModalTransition
   public init()
   public init(pushTransition: any MoneyKit.MKPushTransition, modalTransition: MoneyKit.MKModalTransition)
+}
+public struct MKLinkIdentifier : Swift.Codable {
+  public let value: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct MKTypographyStyle {
   public enum Weight {
