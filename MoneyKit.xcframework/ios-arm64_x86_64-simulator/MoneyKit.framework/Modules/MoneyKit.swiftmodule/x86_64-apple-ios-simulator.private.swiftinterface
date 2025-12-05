@@ -130,6 +130,7 @@ public struct MKConfiguration {
   public typealias SuccessHandler = ((MoneyKit.MKLinkSuccessType) -> Swift.Void)?
   public typealias ExitHandler = ((MoneyKit.MKLinkError?) -> Swift.Void)?
   public typealias EventHandler = ((MoneyKit.MKLinkEvent) -> Swift.Void)?
+  public typealias ConnectManuallyHandler = ((Swift.String?) -> Swift.Bool)?
   public enum ConfigurationError : Swift.Error, Foundation.LocalizedError {
     case invalidSessionToken(Swift.String)
     public var errorDescription: Swift.String? {
@@ -140,11 +141,12 @@ public struct MKConfiguration {
     }
   }
   public let sessionToken: Swift.String
+  public let allowedInstitutions: [Swift.String]?
   public let version: Swift.String
   public var settings: MoneyKit.MKSettings {
     get
   }
-  public init(sessionToken: Swift.String, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, settings: MoneyKit.MKSettings = MKSettings()) throws
+  public init(sessionToken: Swift.String, allowedInstitutions: [Swift.String]? = nil, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, onConnectManually: MoneyKit.MKConfiguration.ConnectManuallyHandler = nil, settings: MoneyKit.MKSettings = MKSettings()) throws
 }
 public struct MKModalTransition {
   public var style: MoneyKit.MKPresentationStyle
@@ -172,8 +174,9 @@ public struct MKInstitutionSelectScreen {
   public var searchInstitutionCellSeparatorStyle: MoneyKit.MKTheme.SeparatorStyle
   public var searchInstitutionCellAvatarDiameter: CoreFoundation.CGFloat
   public var searchInstitutionCellContentEdgeInsets: UIKit.UIEdgeInsets
+  public var allowedInstitutions: [Swift.String]?
   public init()
-  public init(title: Swift.String, subtitle: Swift.String?, searchPlaceholder: Swift.String, navigationBarHidden: Swift.Bool, swipeToDismiss: Swift.Bool, backgroundColorStyle: MoneyKit.MKTheme.BackgroundColorStyle, institutionCellShadowStyle: MoneyKit.MKTheme.ShadowStyle, institutionCellCornerStyle: MoneyKit.MKTheme.CornerStyle, institutionCellBorderStyle: MoneyKit.MKTheme.BorderStyle, institutionCellSpacing: CoreFoundation.CGFloat, institutionCellBackgroundColor: UIKit.UIColor, searchInstitutionCellSeparatorStyle: MoneyKit.MKTheme.SeparatorStyle, searchInstitutionCellAvatarDiameter: CoreFoundation.CGFloat, searchInstitutionCellContentEdgeInsets: UIKit.UIEdgeInsets)
+  public init(title: Swift.String, subtitle: Swift.String?, searchPlaceholder: Swift.String, navigationBarHidden: Swift.Bool, swipeToDismiss: Swift.Bool, backgroundColorStyle: MoneyKit.MKTheme.BackgroundColorStyle, institutionCellShadowStyle: MoneyKit.MKTheme.ShadowStyle, institutionCellCornerStyle: MoneyKit.MKTheme.CornerStyle, institutionCellBorderStyle: MoneyKit.MKTheme.BorderStyle, institutionCellSpacing: CoreFoundation.CGFloat, institutionCellBackgroundColor: UIKit.UIColor, searchInstitutionCellSeparatorStyle: MoneyKit.MKTheme.SeparatorStyle, searchInstitutionCellAvatarDiameter: CoreFoundation.CGFloat, searchInstitutionCellContentEdgeInsets: UIKit.UIEdgeInsets, allowedInstitutions: [Swift.String]? = nil)
 }
 public struct MKTrackedScreen : Swift.Codable {
   public let name: Swift.String
