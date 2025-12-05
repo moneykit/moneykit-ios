@@ -13,7 +13,7 @@ class ExampleViewController: UIViewController {
         super.viewDidLoad()
 
         #warning("Replace <#YOUR_LINK_SESSION_TOKEN#> below")
-        let linkSessionToken: String = "YOUR_LINK_SESSION_TOKEN"
+        let linkSessionToken: String = "<#YOUR_LINK_SESSION_TOKEN#>"
 
         do {
             let configuration = try MKConfiguration(
