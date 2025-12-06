@@ -6,6 +6,7 @@ import Combine
 import DeveloperToolsSupport
 import Foundation
 import GameplayKit
+import LinkKit
 import LocalAuthentication
 @_exported import MoneyKit
 import Network

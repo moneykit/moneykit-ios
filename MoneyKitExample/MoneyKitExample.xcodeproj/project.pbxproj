@@ -18,6 +18,7 @@
 		0D27D4D82B8CD8B6006C91DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D27D4D72B8CD8B6006C91DB /* Assets.xcassets */; };
 		0D27D4DB2B8CD8B6006C91DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D27D4DA2B8CD8B6006C91DB /* Preview Assets.xcassets */; };
 		0D27D4E02B8CD8DB006C91DB /* MoneyKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A20A02A12745D001F3CDE /* MoneyKit.xcframework */; };
+		C2C5DFB72EE399160047C4A1 /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = C2C5DFB62EE399160047C4A1 /* LinkKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D27D4E02B8CD8DB006C91DB /* MoneyKit.xcframework in Frameworks */,
+				C2C5DFB72EE399160047C4A1 /* LinkKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +181,10 @@
 				Base,
 			);
 			mainGroup = 0D1A20802A12675D001F3CDE;
+			packageReferences = (
+				C2C5DF9E2EE37BBA0047C4A1 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */,
+				C2C5DFAB2EE384960047C4A1 /* XCRemoteSwiftPackageReference "JSONPreview" */,
+			);
 			productRefGroup = 0D1A208A2A12675D001F3CDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -514,6 +520,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2C5DF9E2EE37BBA0047C4A1 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/plaid/plaid-link-ios-spm";
+			requirement = {
+				kind = exactVersion;
+				version = 6.4.2;
+			};
+		};
+		C2C5DFAB2EE384960047C4A1 /* XCRemoteSwiftPackageReference "JSONPreview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RakuyoKit/JSONPreview";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2C5DFB62EE399160047C4A1 /* LinkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2C5DF9E2EE37BBA0047C4A1 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */;
+			productName = LinkKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0D1A20812A12675D001F3CDE /* Project object */;
 }
