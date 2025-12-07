@@ -323,8 +323,9 @@ public struct MKTypography {
   public var smallBody: MoneyKit.MKTypographyStyle
   public var button: MoneyKit.MKTypographyStyle
   public var input: MoneyKit.MKTypographyStyle
+  public var institutionName: MoneyKit.MKTypographyStyle
   public init()
-  public init(regularFont: UIKit.UIFont, mediumFont: UIKit.UIFont?, boldFont: UIKit.UIFont, heavyFont: UIKit.UIFont?, largeTitle: MoneyKit.MKTypographyStyle, title1: MoneyKit.MKTypographyStyle, title2: MoneyKit.MKTypographyStyle, title3: MoneyKit.MKTypographyStyle, body: MoneyKit.MKTypographyStyle, smallBody: MoneyKit.MKTypographyStyle, button: MoneyKit.MKTypographyStyle, input: MoneyKit.MKTypographyStyle)
+  public init(regularFont: UIKit.UIFont, mediumFont: UIKit.UIFont?, boldFont: UIKit.UIFont, heavyFont: UIKit.UIFont?, largeTitle: MoneyKit.MKTypographyStyle, title1: MoneyKit.MKTypographyStyle, title2: MoneyKit.MKTypographyStyle, title3: MoneyKit.MKTypographyStyle, body: MoneyKit.MKTypographyStyle, smallBody: MoneyKit.MKTypographyStyle, button: MoneyKit.MKTypographyStyle, input: MoneyKit.MKTypographyStyle, institutionName: MoneyKit.MKTypographyStyle)
 }
 public struct MKTheme {
   public var colors: MoneyKit.MKColors
