@@ -1,12 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MoneyKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MoneyKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Combine
 import DeveloperToolsSupport
 import Foundation
 import GameplayKit
-import LinkKit
 import LocalAuthentication
 @_exported import MoneyKit
 import Network
@@ -26,17 +25,14 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency public init(viewModel: MoneyKit.MKConnectViewModel)
   @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: MoneyKit.MKConnectView.Context) -> MoneyKit.MKConnectView.UIViewControllerType
   @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: MoneyKit.MKConnectView.UIViewControllerType, context: MoneyKit.MKConnectView.Context)
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = Swift.Never
-  @available(iOS 13.0, tvOS 13.0, *)
-  @available(watchOS, unavailable)
-  @available(macOS, unavailable)
   public typealias Coordinator = Swift.Void
 }
 final public class MKConnectViewModel : Combine.ObservableObject {
   final public var linkHandler: MoneyKit.MKLinkHandler?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(linkHandler: MoneyKit.MKLinkHandler? = nil)
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  #endif
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -122,7 +118,9 @@ public struct MKPageSheetStyle {
   public var tertiaryViewZPosition: CoreFoundation.CGFloat
   public var innerViewCornerRadius: CoreFoundation.CGFloat
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(primaryViewCornerRadius: CoreFoundation.CGFloat, primaryViewTopInset: CoreFoundation.CGFloat, secondaryViewCornerRadius: CoreFoundation.CGFloat, secondaryViewTopInset: CoreFoundation.CGFloat, secondaryViewZPosition: CoreFoundation.CGFloat, tertiaryViewCornerRadius: CoreFoundation.CGFloat, tertiaryViewZPosition: CoreFoundation.CGFloat, innerViewCornerRadius: CoreFoundation.CGFloat? = nil)
+  #endif
 }
 extension MoneyKit.MKPageSheetStyle {
   public static let ios: MoneyKit.MKPageSheetStyle
@@ -132,11 +130,14 @@ public struct MKConfiguration {
   public typealias ExitHandler = ((MoneyKit.MKLinkError?) -> Swift.Void)?
   public typealias EventHandler = ((MoneyKit.MKLinkEvent) -> Swift.Void)?
   public typealias ConnectManuallyHandler = ((Swift.String?) -> Swift.Bool)?
+  public typealias PlaidProvider = (any MoneyKit.MKPlaidLinkProvider)?
   public enum ConfigurationError : Swift.Error, Foundation.LocalizedError {
     case invalidSessionToken(Swift.String)
+    #if compiler(>=5.3) && $NonescapableTypes
     public var errorDescription: Swift.String? {
       get
     }
+    #endif
     public var identifier: Swift.String {
       get
     }
@@ -147,7 +148,11 @@ public struct MKConfiguration {
   public var settings: MoneyKit.MKSettings {
     get
   }
-  public init(sessionToken: Swift.String, allowedInstitutions: [Swift.String]? = nil, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, onConnectManually: MoneyKit.MKConfiguration.ConnectManuallyHandler = nil, settings: MoneyKit.MKSettings = MKSettings()) throws
+  public var plaidLinkProvider: MoneyKit.MKConfiguration.PlaidProvider
+  public var automaticallyDismissOnSuccess: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(sessionToken: Swift.String, allowedInstitutions: [Swift.String]? = nil, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, onConnectManually: MoneyKit.MKConfiguration.ConnectManuallyHandler = nil, plaidLinkProvider: MoneyKit.MKConfiguration.PlaidProvider = nil, automaticallyDismissOnSuccess: Swift.Bool = true, settings: MoneyKit.MKSettings = MKSettings()) throws
+  #endif
 }
 public struct MKModalTransition {
   public var style: MoneyKit.MKPresentationStyle
@@ -177,7 +182,9 @@ public struct MKInstitutionSelectScreen {
   public var searchInstitutionCellContentEdgeInsets: UIKit.UIEdgeInsets
   public var allowedInstitutions: [Swift.String]?
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String, subtitle: Swift.String?, searchPlaceholder: Swift.String, navigationBarHidden: Swift.Bool, swipeToDismiss: Swift.Bool, backgroundColorStyle: MoneyKit.MKTheme.BackgroundColorStyle, institutionCellShadowStyle: MoneyKit.MKTheme.ShadowStyle, institutionCellCornerStyle: MoneyKit.MKTheme.CornerStyle, institutionCellBorderStyle: MoneyKit.MKTheme.BorderStyle, institutionCellSpacing: CoreFoundation.CGFloat, institutionCellBackgroundColor: UIKit.UIColor, searchInstitutionCellSeparatorStyle: MoneyKit.MKTheme.SeparatorStyle, searchInstitutionCellAvatarDiameter: CoreFoundation.CGFloat, searchInstitutionCellContentEdgeInsets: UIKit.UIEdgeInsets, allowedInstitutions: [Swift.String]? = nil)
+  #endif
 }
 public struct MKTrackedScreen : Swift.Codable {
   public let name: Swift.String
@@ -194,7 +201,9 @@ public struct MKControls {
     public var separatorHeight: CoreFoundation.CGFloat
     public var separatorHorizontalInset: CoreFoundation.CGFloat
     public init()
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(height: CoreFoundation.CGFloat, closeButtonTintColor: UIKit.UIColor?, separatorHeight: CoreFoundation.CGFloat, separatorHorizontalInset: CoreFoundation.CGFloat)
+    #endif
   }
   public struct Button {
     public var height: CoreFoundation.CGFloat
@@ -205,7 +214,9 @@ public struct MKControls {
     public var disabledTitleTextColor: UIKit.UIColor?
     public var disabledTitleAlpha: CoreFoundation.CGFloat?
     public init()
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(height: CoreFoundation.CGFloat, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, interactionStyle: MoneyKit.MKTheme.InteractionStyle?, disabledBackgroundColor: UIKit.UIColor?, disabledTitleTextColor: UIKit.UIColor?, disabledTitleAlpha: CoreFoundation.CGFloat?)
+    #endif
   }
   public struct SearchBar {
     public enum CancelButtonType {
@@ -232,7 +243,9 @@ public struct MKControls {
     public var highlightedBackgroundColor: UIKit.UIColor?
     public var selectedBackgroundColor: UIKit.UIColor?
     public init()
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(height: CoreFoundation.CGFloat, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle? = nil, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle? = nil, shadowStyle: MoneyKit.MKTheme.ShadowStyle = .none, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle? = nil, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle? = nil, interactionStyle: MoneyKit.MKTheme.InteractionStyle?, alignment: MoneyKit.MKTheme.ContentAlignment, cancelButtonType: MoneyKit.MKControls.SearchBar.CancelButtonType, backgroundColor: UIKit.UIColor, highlightedBackgroundColor: UIKit.UIColor? = nil, selectedBackgroundColor: UIKit.UIColor? = nil)
+    #endif
   }
   public struct TextField {
     public var height: CoreFoundation.CGFloat
@@ -248,7 +261,9 @@ public struct MKControls {
     public var highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle
     public var selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle
     public init()
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(height: CoreFoundation.CGFloat, contentInset: UIKit.UIEdgeInsets?, backgroundColor: UIKit.UIColor?, highlightedBackgroundColor: UIKit.UIColor?, selectedBackgroundColor: UIKit.UIColor?, cornerStyle: MoneyKit.MKTheme.CornerStyle, borderStyle: MoneyKit.MKTheme.BorderStyle, highlightedBorderStyle: MoneyKit.MKTheme.BorderStyle, selectedBorderStyle: MoneyKit.MKTheme.BorderStyle, shadowStyle: MoneyKit.MKTheme.ShadowStyle, highlightedShadowStyle: MoneyKit.MKTheme.ShadowStyle, selectedShadowStyle: MoneyKit.MKTheme.ShadowStyle)
+    #endif
   }
   public struct Spinner {
     public var lineCap: QuartzCore.CAShapeLayerLineCap
@@ -325,7 +340,9 @@ public struct MKTypography {
   public var input: MoneyKit.MKTypographyStyle
   public var institutionName: MoneyKit.MKTypographyStyle
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(regularFont: UIKit.UIFont, mediumFont: UIKit.UIFont?, boldFont: UIKit.UIFont, heavyFont: UIKit.UIFont?, largeTitle: MoneyKit.MKTypographyStyle, title1: MoneyKit.MKTypographyStyle, title2: MoneyKit.MKTypographyStyle, title3: MoneyKit.MKTypographyStyle, body: MoneyKit.MKTypographyStyle, smallBody: MoneyKit.MKTypographyStyle, button: MoneyKit.MKTypographyStyle, input: MoneyKit.MKTypographyStyle, institutionName: MoneyKit.MKTypographyStyle)
+  #endif
 }
 public struct MKTheme {
   public var colors: MoneyKit.MKColors
@@ -402,14 +419,18 @@ extension MoneyKit.MKTheme {
     public var damping: CoreFoundation.CGFloat
     public var velocity: CoreFoundation.CGFloat
     public var options: UIKit.UIView.AnimationOptions
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(haptic: Swift.Bool, highlightColor: UIKit.UIColor?, scale: CoreFoundation.CGFloat, duration: CoreFoundation.CGFloat, damping: CoreFoundation.CGFloat, velocity: CoreFoundation.CGFloat, options: UIKit.UIView.AnimationOptions)
+    #endif
   }
 }
 public enum MKUserInterfaceLevel : Swift.Int {
   case unspecified
   case base
   case elevated
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -432,7 +453,9 @@ public struct MKInteractiveLoadingScreen {
   public var loadingAlignment: MoneyKit.MKInteractiveLoadingScreen.LoadingAlignment
   public var content: MoneyKit.MKInteractiveLoadingScreen.Content?
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(loadingAlignment: MoneyKit.MKInteractiveLoadingScreen.LoadingAlignment, content: MoneyKit.MKInteractiveLoadingScreen.Content?)
+  #endif
 }
 public struct MKSettings {
   public var theme: MoneyKit.MKTheme
@@ -526,7 +549,9 @@ public struct MKFullScreenStyle {
   public var primaryViewCornerRadius: CoreFoundation.CGFloat
   public var innerViewCornerRadius: CoreFoundation.CGFloat
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(primaryViewCornerRadius: CoreFoundation.CGFloat, innerViewCornerRadius: CoreFoundation.CGFloat? = nil)
+  #endif
 }
 extension MoneyKit.MKFullScreenStyle {
   public static let ios: MoneyKit.MKFullScreenStyle
@@ -556,6 +581,14 @@ public struct MKLinkIdentifier : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct MKPlaidLinkResult {
+  public let publicToken: Swift.String
+  public let institutionId: Swift.String
+  public init(publicToken: Swift.String, institutionId: Swift.String)
+}
+public protocol MKPlaidLinkProvider : AnyObject {
+  func presentPlaidLink(from viewController: UIKit.UIViewController, linkToken: Swift.String, onSuccess: @escaping (MoneyKit.MKPlaidLinkResult) -> Swift.Void, onExit: @escaping () -> Swift.Void)
+}
 public struct MKTypographyStyle {
   public enum Weight {
     case regular
@@ -573,7 +606,9 @@ public struct MKTypographyStyle {
   public var letterSpacing: CoreFoundation.CGFloat
   public var weight: MoneyKit.MKTypographyStyle.Weight
   public var font: UIKit.UIFont?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(size: CoreFoundation.CGFloat, lineHeight: CoreFoundation.CGFloat, letterSpacing: CoreFoundation.CGFloat, weight: MoneyKit.MKTypographyStyle.Weight, font: UIKit.UIFont? = nil)
+  #endif
 }
 extension MoneyKit.MKConnectView : Swift.Sendable {}
 extension MoneyKit.MKControls.SearchBar.CancelButtonType : Swift.Equatable {}
