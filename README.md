@@ -33,3 +33,7 @@ New versions of MoneyKit.xcframework are released frequently, at least once ever
 Before building and running the example application, replace any placeholder strings in the code with the appropriate value so that MoneyKit is configured properly. For convenience, the Xcode placeholder strings are also marked as compile-time warnings.
 
 Full, detailed instructions on how to integrate with MoneyKit for iOS can be found in our main documentation at https://docs.moneykit.com/.
+
+Auth token needs to be generated with:
+"redirect_uri": "moneykitexampleapp://oauth"
+In order for OAuth flows to work in the MoneyKitSwiftUIExample app.

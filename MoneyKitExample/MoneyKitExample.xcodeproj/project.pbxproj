@@ -18,7 +18,6 @@
 		0D27D4D82B8CD8B6006C91DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D27D4D72B8CD8B6006C91DB /* Assets.xcassets */; };
 		0D27D4DB2B8CD8B6006C91DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D27D4DA2B8CD8B6006C91DB /* Preview Assets.xcassets */; };
 		0D27D4E02B8CD8DB006C91DB /* MoneyKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A20A02A12745D001F3CDE /* MoneyKit.xcframework */; };
-		C2C5DFB72EE399160047C4A1 /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = C2C5DFB62EE399160047C4A1 /* LinkKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +34,7 @@
 		0D27D4D52B8CD8B5006C91DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D27D4D72B8CD8B6006C91DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D27D4DA2B8CD8B6006C91DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DC8AB912FD9016200B7E3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D27D4E02B8CD8DB006C91DB /* MoneyKit.xcframework in Frameworks */,
-				C2C5DFB72EE399160047C4A1 /* LinkKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +96,7 @@
 				0D27D4D32B8CD8B5006C91DB /* MoneyKitSwiftUIExampleApp.swift */,
 				0D27D4D52B8CD8B5006C91DB /* ContentView.swift */,
 				0D27D4D72B8CD8B6006C91DB /* Assets.xcassets */,
+				0DC8AB912FD9016200B7E3A1 /* Info.plist */,
 				0D27D4D92B8CD8B6006C91DB /* Preview Content */,
 			);
 			path = MoneyKitSwiftUIExample;
@@ -182,7 +182,6 @@
 			);
 			mainGroup = 0D1A20802A12675D001F3CDE;
 			packageReferences = (
-				C2C5DF9E2EE37BBA0047C4A1 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */,
 				C2C5DFAB2EE384960047C4A1 /* XCRemoteSwiftPackageReference "JSONPreview" */,
 			);
 			productRefGroup = 0D1A208A2A12675D001F3CDE /* Products */;
@@ -431,11 +430,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoneyKitSwiftUIExample/Preview Content\"";
-				DEVELOPMENT_TEAM = 96G9TF54YX;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyKitSwiftUIExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,11 +465,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoneyKitSwiftUIExample/Preview Content\"";
-				DEVELOPMENT_TEAM = 96G9TF54YX;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyKitSwiftUIExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -522,14 +523,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C2C5DF9E2EE37BBA0047C4A1 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/plaid/plaid-link-ios-spm";
-			requirement = {
-				kind = exactVersion;
-				version = 6.4.2;
-			};
-		};
 		C2C5DFAB2EE384960047C4A1 /* XCRemoteSwiftPackageReference "JSONPreview" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RakuyoKit/JSONPreview";
@@ -539,14 +532,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		C2C5DFB62EE399160047C4A1 /* LinkKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C2C5DF9E2EE37BBA0047C4A1 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */;
-			productName = LinkKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0D1A20812A12675D001F3CDE /* Project object */;
 }
