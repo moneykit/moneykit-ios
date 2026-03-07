@@ -72296,6 +72296,92 @@
           },
           {
             "kind": "Var",
+            "name": "automaticallyDismissOnSuccess",
+            "printedName": "automaticallyDismissOnSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MoneyKit15MKConfigurationV29automaticallyDismissOnSuccessSbvp",
+            "mangledName": "$s8MoneyKit15MKConfigurationV29automaticallyDismissOnSuccessSbvp",
+            "moduleName": "MoneyKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MoneyKit15MKConfigurationV29automaticallyDismissOnSuccessSbvg",
+                "mangledName": "$s8MoneyKit15MKConfigurationV29automaticallyDismissOnSuccessSbvg",
+                "moduleName": "MoneyKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MoneyKit15MKConfigurationV29automaticallyDismissOnSuccessSbvs",
+                "mangledName": "$s8MoneyKit15MKConfigurationV29automaticallyDismissOnSuccessSbvs",
+                "moduleName": "MoneyKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MoneyKit15MKConfigurationV29automaticallyDismissOnSuccessSbvM",
+                "mangledName": "$s8MoneyKit15MKConfigurationV29automaticallyDismissOnSuccessSbvM",
+                "moduleName": "MoneyKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "apiConfiguration",
             "printedName": "apiConfiguration",
             "children": [
@@ -73505,7 +73591,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sessionToken:onSuccess:onExit:onEvent:settings:)",
+            "printedName": "init(sessionToken:onSuccess:onExit:onEvent:automaticallyDismissOnSuccess:settings:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -73608,6 +73694,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "MKSettings",
                 "printedName": "MoneyKit.MKSettings",
                 "hasDefaultArg": true,
@@ -73615,8 +73708,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8MoneyKit15MKConfigurationV12sessionToken9onSuccess0F4Exit0F5Event8settingsACSS_yAA06MKLinkG4TypeOcSgyAA0K5ErrorVSgcSgyAA0kI0VcSgAA10MKSettingsVtKcfc",
-            "mangledName": "$s8MoneyKit15MKConfigurationV12sessionToken9onSuccess0F4Exit0F5Event8settingsACSS_yAA06MKLinkG4TypeOcSgyAA0K5ErrorVSgcSgyAA0kI0VcSgAA10MKSettingsVtKcfc",
+            "usr": "s:8MoneyKit15MKConfigurationV12sessionToken9onSuccess0F4Exit0F5Event022automaticallyDismissOnG08settingsACSS_yAA06MKLinkG4TypeOcSgyAA0N5ErrorVSgcSgyAA0nI0VcSgSbAA10MKSettingsVtKcfc",
+            "mangledName": "$s8MoneyKit15MKConfigurationV12sessionToken9onSuccess0F4Exit0F5Event022automaticallyDismissOnG08settingsACSS_yAA06MKLinkG4TypeOcSgyAA0N5ErrorVSgcSgyAA0nI0VcSgSbAA10MKSettingsVtKcfc",
             "moduleName": "MoneyKit",
             "declAttributes": [
               "AccessControl",
@@ -315722,6 +315815,13 @@
       "offset": 111,
       "length": 36,
       "value": "[\"Radius\", \"Corner\", \"display\", \"_\"]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MoneyKit\/Core\/Public\/MKConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4462,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/Quick Link\/MKQuickLinkOTPEntryViewController.swift",
