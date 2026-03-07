@@ -145,8 +145,9 @@ public struct MKConfiguration {
   public var settings: MoneyKit.MKSettings {
     get
   }
+  public var automaticallyDismissOnSuccess: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(sessionToken: Swift.String, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, settings: MoneyKit.MKSettings = MKSettings()) throws
+  public init(sessionToken: Swift.String, onSuccess: MoneyKit.MKConfiguration.SuccessHandler, onExit: MoneyKit.MKConfiguration.ExitHandler, onEvent: MoneyKit.MKConfiguration.EventHandler = nil, automaticallyDismissOnSuccess: Swift.Bool = true, settings: MoneyKit.MKSettings = MKSettings()) throws
   #endif
 }
 public struct MKModalTransition {
