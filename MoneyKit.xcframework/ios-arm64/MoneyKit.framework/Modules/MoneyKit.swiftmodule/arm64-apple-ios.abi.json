@@ -315014,7 +315014,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginSelectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 13208,
+      "offset": 13196,
       "length": 4,
       "value": "0.15"
     },
@@ -316743,14 +316743,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13756,
+      "offset": 13744,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MoneyKit\/UI\/Internal\/View Controllers\/MKLoginEntryViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 17709,
+      "offset": 17697,
       "length": 4,
       "value": "0.15"
     },
